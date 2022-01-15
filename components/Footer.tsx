@@ -4,11 +4,11 @@ interface FooterProps {}
 
 const Footer: React.FunctionComponent<FooterProps> = ({ children }) => {
   return (
-    <footer className="bg-white" aria-labelledby="footer-heading">
+    <footer className="mt-32 bg-white" aria-labelledby="footer-heading">
       <h2 id="footer-heading" className="sr-only">
         Footer
       </h2>
-      <div className="px-5 py-12 mx-auto max-w-7xl lg:py-16 md:px-12 lg:px-20">
+      <div className="px-5 py-12 lg:py-16 md:px-0 ">
         <div className="xl:grid xl:grid-cols-3 xl:gap-8">
           <div className="space-y-8 xl:col-span-1">
             <a
