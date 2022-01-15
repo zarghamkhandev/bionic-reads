@@ -31,13 +31,6 @@ const Header: React.FunctionComponent<HeaderProps> = ({ children }) => {
           </button>
         </div>
         <nav className="flex-col items-center flex-grow hidden pb-4 border-blue-600 md:pb-0 md:flex md:justify-end md:flex-row lg:border-l-2 lg:pl-2">
-          <a
-            className="px-4 py-2 mt-2 text-sm text-gray-500 md:mt-0 hover:text-blue-600 focus:outline-none focus:shadow-outline"
-            href="#"
-          >
-            About
-          </a>
-
           <Link href="/pricing">
             <a className="px-4 py-2 mt-2 text-sm text-gray-500 md:mt-0 hover:text-blue-600 focus:outline-none focus:shadow-outline">
               Pricing
