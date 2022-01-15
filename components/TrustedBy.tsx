@@ -4,7 +4,7 @@ interface TrustedByProps {}
 
 const TrustedBy: React.FunctionComponent<TrustedByProps> = ({}) => {
   return (
-    <section className="px-5  lg:px-16">
+    <section className="px-5 mt-20 lg:px-16">
       <div className="flex flex-col w-full mb-8 text-center">
         <span className="mb-4 text-sm font-medium tracking-wide text-gray-500 uppercase">
           Trusted by
