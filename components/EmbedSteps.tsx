@@ -4,7 +4,7 @@ const EmbedSteps: React.FunctionComponent = () => {
   return (
     <section className="mt-20 text-gray-600">
       <div className="flex flex-col w-full mt-20 text-center">
-        <h1 className="mb-4 text-3xl font-bold text-gray-900 sm:text-3xl title-font">
+        <h1 className="mb-4 text-3xl font-bold text-gray-900 sm:text-4xl title-font">
           Here’s how it works
         </h1>
         <p className="mx-auto text-base leading-relaxed lg:w-2/3">

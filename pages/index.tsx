@@ -1,9 +1,8 @@
-import Head from "next/head";
 import EmbedSteps from "../components/EmbedSteps";
-import Features from "../components/Features";
 import Hero from "../components/Hero";
 import Layout from "../components/Layout";
 import TrustedBy from "../components/TrustedBy";
+import Usecases from "../components/Usecases";
 
 export default function Home() {
   return (
@@ -11,6 +10,7 @@ export default function Home() {
       <Hero />
       <TrustedBy />
       <EmbedSteps />
+      <Usecases />
     </Layout>
   );
 }
