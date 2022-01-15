@@ -31,9 +31,6 @@ const Hero: React.FunctionComponent<HeroProps> = ({}) => {
             </div>
           </div>
         </div>
-        <section id="intro">
-          <div className="flex flex-col items-center justify-center pt-24 mx-auto rounded-lg lg:px-10 max-w-7xl"></div>
-        </section>
       </div>
     </section>
   );
