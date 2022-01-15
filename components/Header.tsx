@@ -1,3 +1,4 @@
+import Link from "next/link";
 import * as React from "react";
 
 interface HeaderProps {}
@@ -36,12 +37,12 @@ const Header: React.FunctionComponent<HeaderProps> = ({ children }) => {
           >
             About
           </a>
-          <a
-            className="px-4 py-2 mt-2 text-sm text-gray-500 md:mt-0 hover:text-blue-600 focus:outline-none focus:shadow-outline"
-            href="#"
-          >
-            Contact
-          </a>
+
+          <Link href="/pricing">
+            <a className="px-4 py-2 mt-2 text-sm text-gray-500 md:mt-0 hover:text-blue-600 focus:outline-none focus:shadow-outline">
+              Pricing
+            </a>
+          </Link>
           <div className="inline-flex items-center gap-2 list-none lg:ml-auto">
             <button className="items-center block px-10 py-3 text-base font-medium text-center text-white transition duration-500 ease-in-out transform bg-blue-600 rounded-xl hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
               Sign in
