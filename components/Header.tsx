@@ -44,7 +44,10 @@ const Header: React.FunctionComponent<HeaderProps> = ({ children }) => {
             </a>
           </Link>
           <div className="inline-flex items-center gap-2 list-none lg:ml-auto">
-            <button className="items-center block px-10 py-3 text-base font-medium text-center text-white transition duration-500 ease-in-out transform bg-blue-600 rounded-xl hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
+            <button
+              className="border border-gray-300 items-center block px-10 py-2.5 text-base font-medium text-center text-blue-600 transition duration-500 ease-in-out transform border-2 border-white shadow-md rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500
+          "
+            >
               Sign in
             </button>
           </div>
