@@ -1,3 +1,4 @@
+import Link from "next/link";
 import * as React from "react";
 
 interface FooterProps {}
@@ -64,16 +65,15 @@ const Footer: React.FunctionComponent<FooterProps> = ({ children }) => {
               </div>
               <div className="mt-12 md:mt-0">
                 <h3 className="text-xs font-semibold tracking-wider text-blue-600 uppercase ">
-                  Support
+                  Blog
                 </h3>
                 <ul role="list" className="mt-4 space-y-4">
                   <li>
-                    <a
-                      href="#"
-                      className="text-sm font-normal text-gray-500 hover:text-gray-900"
-                    >
-                      Pricing
-                    </a>
+                    <Link href="/blog/7">
+                      <a className="text-sm font-normal text-gray-500 hover:text-gray-900">
+                        7 ways to increase your website traffic
+                      </a>
+                    </Link>
                   </li>
                   <li>
                     <a
