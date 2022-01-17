@@ -37,8 +37,7 @@ const EmbedSteps: React.FunctionComponent = () => {
                   STEP 1
                 </h2>
                 <p className="leading-relaxed">
-                  VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk
-                  bespoke try-hard cliche palo santo offal.
+                  Sign up for free von voicl.com/sign up and provide your website url.
                 </p>
               </div>
             </div>
@@ -64,8 +63,7 @@ const EmbedSteps: React.FunctionComponent = () => {
                   STEP 2
                 </h2>
                 <p className="leading-relaxed">
-                  Vice migas literally kitsch +1 pok pok. Truffaut hot chicken
-                  slow-carb health goth, vape typewriter.
+                  After signing up, please add the one line of code we give you anywhere into your website's code.
                 </p>
               </div>
             </div>
@@ -92,8 +90,7 @@ const EmbedSteps: React.FunctionComponent = () => {
                   STEP 3
                 </h2>
                 <p className="leading-relaxed">
-                  Coloring book nar whal glossier master cleanse umami. Salvia
-                  +1 master cleanse blog taiyaki.
+                  Create your voicy. You can choose a template, customize the colors to match your brand, add your text and record/upload your audio file.
                 </p>
               </div>
             </div>
@@ -120,8 +117,7 @@ const EmbedSteps: React.FunctionComponent = () => {
                   STEP 4
                 </h2>
                 <p className="leading-relaxed">
-                  VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk
-                  bespoke try-hard cliche palo santo offal.
+                  Choose a method to add your voicy (Smart embed, sticky or iframe). Pro Tip: Smart embed uses our newest technology and is the easiest way to add your widget to your website. :)
                 </p>
               </div>
             </div>
@@ -142,11 +138,10 @@ const EmbedSteps: React.FunctionComponent = () => {
               </div>
               <div className="flex-grow pl-4">
                 <h2 className="mb-1 text-sm font-medium tracking-wider text-gray-900 title-font">
-                  FINISH
+                  DONE
                 </h2>
                 <p className="leading-relaxed">
-                  Pitchfork ugh tattooed scenester echo park gastropub whatever
-                  cold-pressed retro.
+                  You're all set! Have fun playing around with colors and templates as much as you want to.
                 </p>
               </div>
             </div>
