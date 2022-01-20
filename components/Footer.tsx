@@ -26,7 +26,7 @@ const Footer: React.FunctionComponent<FooterProps> = ({ children }) => {
             <div className="md:grid md:grid-cols-2 md:gap-8">
               <div>
                 <h3 className="text-xs font-semibold tracking-wider text-blue-600 uppercase ">
-                  Solutions
+                  About us
                 </h3>
                 <ul role="list" className="mt-4 space-y-4">
                   <li>
@@ -34,31 +34,31 @@ const Footer: React.FunctionComponent<FooterProps> = ({ children }) => {
                       href="#"
                       className="text-sm font-normal text-gray-500 hover:text-gray-900"
                     >
-                      Marketing
+                      About us
                     </a>
                   </li>
                   <li>
                     <a
-                      href="#"
+                      href="https://gelatinous-canoe-27d.notion.site/Terms-Conditions-d419fceee13348009392f080d2eea361"
                       className="text-sm font-normal text-gray-500 hover:text-gray-900"
                     >
-                      Analytics
+                      Terms & Conditions
                     </a>
                   </li>
                   <li>
                     <a
-                      href="#"
+                      href="https://gelatinous-canoe-27d.notion.site/Privacy-Policy-2517212599ea4ad582e7b3bf4ec12477"
                       className="text-sm font-normal text-gray-500 hover:text-gray-900"
                     >
-                      Commerce
+                      Privacy Policy
                     </a>
                   </li>
                   <li>
                     <a
-                      href="#"
+                      href="https://gelatinous-canoe-27d.notion.site/Impressum-73e5c780032f4a22908fba43e157b64c"
                       className="text-sm font-normal text-gray-500 hover:text-gray-900"
                     >
-                      Insights
+                      Imprint
                     </a>
                   </li>
                 </ul>
@@ -80,7 +80,7 @@ const Footer: React.FunctionComponent<FooterProps> = ({ children }) => {
                       href="#"
                       className="text-sm font-normal text-gray-500 hover:text-gray-900"
                     >
-                      Documentation
+                      How to increase your website engagement
                     </a>
                   </li>
                   <li>
@@ -88,7 +88,7 @@ const Footer: React.FunctionComponent<FooterProps> = ({ children }) => {
                       href="#"
                       className="text-sm font-normal text-gray-500 hover:text-gray-900"
                     >
-                      Guides
+                      How to add voicl to your website
                     </a>
                   </li>
                   <li>
@@ -96,7 +96,7 @@ const Footer: React.FunctionComponent<FooterProps> = ({ children }) => {
                       href="#"
                       className="text-sm font-normal text-gray-500 hover:text-gray-900"
                     >
-                      API Status
+                      Why voice is simply better
                     </a>
                   </li>
                 </ul>
@@ -109,8 +109,7 @@ const Footer: React.FunctionComponent<FooterProps> = ({ children }) => {
                     Subscribe to our newsletter
                   </h3>
                   <p className="mt-4 text-sm text-gray-500 lg:ml-auto">
-                    The latest news, articles, and resources, sent to your inbox
-                    weekly.
+                    Don't miss out on exciting product updates and coupons.
                   </p>
                   <div className="inline-flex items-center gap-2 list-none lg:ml-auto">
                     <form

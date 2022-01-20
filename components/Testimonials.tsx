@@ -5,7 +5,7 @@ const Testimonials: React.FunctionComponent = () => {
     <section className="text-gray-600 ">
       <div className="flex flex-col w-full mt-32 text-center">
         <h1 className="mb-4 text-3xl font-bold text-gray-900 sm:text-4xl title-font">
-          Hear what our clients has to say!
+          Hear what our clients have to say!
         </h1>
       </div>
       <div className="px-5 pt-16 ">
@@ -18,16 +18,13 @@ const Testimonials: React.FunctionComponent = () => {
                 src="https://dummyimage.com/302x302"
               />
               <p className="leading-relaxed">
-                Edison bulb retro cloud bread echo park, helvetica stumptown
-                taiyaki taxidermy 90's cronut +1 kinfolk. Single-origin coffee
-                ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut
-                adaptogen squid fanny pack vaporware.
+                Voicl is a gamechanger for us by helping explain our product to our customers - genius.
               </p>
               <span className="inline-block w-10 h-1 mt-6 mb-4 bg-indigo-500 rounded" />
               <h2 className="text-sm font-medium tracking-wider text-gray-900 title-font">
-                HOLDEN CAULFIELD
+                Victor Ehinmowo
               </h2>
-              <p className="text-gray-500">Senior Product Designer</p>
+              <p className="text-gray-500">CEO vobb.io</p>
             </div>
           </div>
           <div className="p-4 mb-6 lg:w-1/3 lg:mb-0">
@@ -38,16 +35,13 @@ const Testimonials: React.FunctionComponent = () => {
                 src="https://dummyimage.com/300x300"
               />
               <p className="leading-relaxed">
-                Edison bulb retro cloud bread echo park, helvetica stumptown
-                taiyaki taxidermy 90's cronut +1 kinfolk. Single-origin coffee
-                ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut
-                adaptogen squid fanny pack vaporware.
+                We use Voicl to encourage clients to book a demo with us. And it works!! Really cool tool.
               </p>
               <span className="inline-block w-10 h-1 mt-6 mb-4 bg-indigo-500 rounded" />
               <h2 className="text-sm font-medium tracking-wider text-gray-900 title-font">
-                ALPER KAMU
+                Sarah Moran
               </h2>
-              <p className="text-gray-500">UI Develeoper</p>
+              <p className="text-gray-500">pynhq.com</p>
             </div>
           </div>
           <div className="p-4 lg:w-1/3 lg:mb-0">
