@@ -19,7 +19,7 @@ const EmbedSteps: React.FunctionComponent = () => {
               <div className="absolute inset-0 flex items-center justify-center w-10 h-full">
                 <div className="w-1 h-full bg-gray-200 pointer-events-none" />
               </div>
-              <div className="relative z-10 inline-flex items-center justify-center flex-shrink-0 w-10 h-10 text-white bg-indigo-500 rounded-full">
+              <div className="relative z-10 inline-flex items-center justify-center flex-shrink-0 w-10 h-10 text-white bg-[#a994e8] rounded-full">
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -45,7 +45,7 @@ const EmbedSteps: React.FunctionComponent = () => {
               <div className="absolute inset-0 flex items-center justify-center w-10 h-full">
                 <div className="w-1 h-full bg-gray-200 pointer-events-none" />
               </div>
-              <div className="relative z-10 inline-flex items-center justify-center flex-shrink-0 w-10 h-10 text-white bg-indigo-500 rounded-full">
+              <div className="relative z-10 inline-flex items-center justify-center flex-shrink-0 w-10 h-10 text-white bg-[#a994e8] rounded-full">
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -71,7 +71,7 @@ const EmbedSteps: React.FunctionComponent = () => {
               <div className="absolute inset-0 flex items-center justify-center w-10 h-full">
                 <div className="w-1 h-full bg-gray-200 pointer-events-none" />
               </div>
-              <div className="relative z-10 inline-flex items-center justify-center flex-shrink-0 w-10 h-10 text-white bg-indigo-500 rounded-full">
+              <div className="relative z-10 inline-flex items-center justify-center flex-shrink-0 w-10 h-10 text-white bg-[#a994e8] rounded-full">
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -98,7 +98,7 @@ const EmbedSteps: React.FunctionComponent = () => {
               <div className="absolute inset-0 flex items-center justify-center w-10 h-full">
                 <div className="w-1 h-full bg-gray-200 pointer-events-none" />
               </div>
-              <div className="relative z-10 inline-flex items-center justify-center flex-shrink-0 w-10 h-10 text-white bg-indigo-500 rounded-full">
+              <div className="relative z-10 inline-flex items-center justify-center flex-shrink-0 w-10 h-10 text-white bg-[#a994e8] rounded-full">
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -116,13 +116,22 @@ const EmbedSteps: React.FunctionComponent = () => {
                 <h2 className="mb-1 text-sm font-medium tracking-wider text-gray-900 title-font">
                   STEP 4
                 </h2>
-                <p className="leading-relaxed">
-                  Choose a method to add your voicy (Smart embed, sticky or iframe). Pro Tip: Smart embed uses our newest technology and is the easiest way to add your widget to your website. :)
-                </p>
+                <p className="leading-relaxed mb-1">
+                  Choose a method to add your voicy</p>
+
+                <div>
+  <div className="p-2 bg-[#EEEAFA] items-center text-indigo-100 leading-none lg:rounded-full flex lg:inline-flex" role="alert">
+    <span className="flex rounded-full bg-[#704ecd] uppercase px-2 py-1 text-xs font-bold text-[#EEEAFA] mr-3">Tip</span>
+    <span className="mr-2 text-left flex-auto text-[#5b38b0]">Smart embed = easiest way to use Voicl</span>
+    <svg className="fill-current opacity-75 h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M12.95 10.707l.707-.707L8 4.343 6.586 5.757 10.828 10l-4.242 4.243L8 15.657l4.95-4.95z"/></svg>
+  </div>
+</div>
+
+
               </div>
             </div>
             <div className="relative flex">
-              <div className="relative z-10 inline-flex items-center justify-center flex-shrink-0 w-10 h-10 text-white bg-indigo-500 rounded-full">
+              <div className="relative z-10 inline-flex items-center justify-center flex-shrink-0 w-10 h-10 text-white bg-[#a994e8] rounded-full">
                 <svg
                   fill="none"
                   stroke="currentColor"

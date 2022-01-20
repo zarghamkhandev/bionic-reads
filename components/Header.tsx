@@ -10,11 +10,11 @@ const Header: React.FunctionComponent<HeaderProps> = ({ children }) => {
         <div className="flex flex-row items-center justify-between lg:justify-start">
           <a
             href="/"
-            className="text-lg font-bold tracking-tighter text-blue-600 transition duration-500 ease-in-out transform tracking-relaxed lg:pr-8"
+            className="text-lg font-bold tracking-tighter text-[#704ecd] transition duration-500 ease-in-out transform tracking-relaxed lg:pr-8"
           >
-            wickedblocks
+            Voicl
           </a>
-          <button className="rounded-lg md:hidden focus:outline-none focus:shadow-outline">
+          <button className="rounded-lg text-[#704ecd] md:hidden focus:outline-none focus:shadow-outline">
             <svg fill="currentColor" viewBox="0 0 20 20" className="w-8 h-8">
               <path
                 fillRule="evenodd"
@@ -30,15 +30,15 @@ const Header: React.FunctionComponent<HeaderProps> = ({ children }) => {
             </svg>
           </button>
         </div>
-        <nav className="flex-col items-center flex-grow hidden pb-4 border-blue-600 md:pb-0 md:flex md:justify-end md:flex-row lg:border-l-2 lg:pl-2">
+        <nav className="flex-col items-center flex-grow hidden pb-4 border-[#704ecd] md:pb-0 md:flex md:justify-end md:flex-row lg:border-l-2 lg:pl-2">
           <Link href="/pricing">
-            <a className="px-4 py-2 mt-2 text-sm text-gray-500 md:mt-0 hover:text-blue-600 focus:outline-none focus:shadow-outline">
+            <a className="px-4 py-2 mt-2 text-sm text-gray-500 md:mt-0 hover:text-[#704ecd] focus:outline-none focus:shadow-outline">
               Pricing
             </a>
           </Link>
           <div className="inline-flex items-center gap-2 list-none lg:ml-auto">
             <button
-              className="border border-gray-300 items-center block px-10 py-2.5 text-base font-medium text-center text-blue-600 transition duration-500 ease-in-out transform border-2 border-white shadow-md rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500
+              className=" items-center block px-10 py-2.5 text-base font-medium text-center bg-gradient-to-r from-[#a994e8] to-[#886adb] text-white drop-shadow-lg font-bold transition duration-500 ease-in-out transform  shadow-lg rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500
           "
             >
               Sign in
