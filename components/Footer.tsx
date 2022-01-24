@@ -14,18 +14,18 @@ const Footer: React.FunctionComponent<FooterProps> = ({ children }) => {
           <div className="space-y-8 xl:col-span-1">
             <a
               href="/"
-              className="text-lg font-bold tracking-tighter text-blue-600 transition duration-500 ease-in-out transform tracking-relaxed lg:pr-8"
+              className="text-lg font-bold tracking-tighter text-our-700 transition duration-500 ease-in-out transform tracking-relaxed lg:pr-8"
             >
-              wickedblocks
+              Voicl
             </a>
             <p className="w-1/2 mt-2 text-sm text-gray-500">
-              Wicked templates for wicked dev's
+            Easily embed voice widgets on your site
             </p>
           </div>
           <div className="grid grid-cols-2 gap-8 mt-12 xl:mt-0 xl:col-span-2">
             <div className="md:grid md:grid-cols-2 md:gap-8">
               <div>
-                <h3 className="text-xs font-semibold tracking-wider text-blue-600 uppercase ">
+                <h3 className="text-xs font-semibold tracking-wider text-our-700 uppercase ">
                   About us
                 </h3>
                 <ul role="list" className="mt-4 space-y-4">
@@ -64,7 +64,7 @@ const Footer: React.FunctionComponent<FooterProps> = ({ children }) => {
                 </ul>
               </div>
               <div className="mt-12 md:mt-0">
-                <h3 className="text-xs font-semibold tracking-wider text-blue-600 uppercase ">
+                <h3 className="text-xs font-semibold tracking-wider  text-our-700  uppercase ">
                   Blog
                 </h3>
                 <ul role="list" className="mt-4 space-y-4">
@@ -103,7 +103,7 @@ const Footer: React.FunctionComponent<FooterProps> = ({ children }) => {
               </div>
             </div>
             <div className="hidden lg:justify-end md:grid md:grid-cols-1">
-              <div className="w-full mt-12 md:mt-0">
+              <div className="w-full mt-12 md:mt-0 hidden">
                 <div className="mt-8 lg:justify-end xl:mt-0">
                   <h3 className="text-xs font-semibold tracking-wider text-blue-600 uppercase ">
                     Subscribe to our newsletter

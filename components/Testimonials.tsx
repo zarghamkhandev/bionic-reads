@@ -15,7 +15,7 @@ const Testimonials: React.FunctionComponent = () => {
               <img
                 alt="testimonial"
                 className="inline-block object-cover object-center w-20 h-20 mb-8 bg-gray-100 border-2 border-gray-200 rounded-full"
-                src="https://dummyimage.com/302x302"
+                src="/77.svg"
               />
               <p className="leading-relaxed">
                 Voicl is a gamechanger for us by helping explain our product to our customers - genius.
@@ -32,7 +32,7 @@ const Testimonials: React.FunctionComponent = () => {
               <img
                 alt="testimonial"
                 className="inline-block object-cover object-center w-20 h-20 mb-8 bg-gray-100 border-2 border-gray-200 rounded-full"
-                src="https://dummyimage.com/300x300"
+                src="/78.svg"
               />
               <p className="leading-relaxed">
                 We use Voicl to encourage clients to book a demo with us. And it works!! Really cool tool.

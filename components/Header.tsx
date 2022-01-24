@@ -30,10 +30,35 @@ const Header: React.FunctionComponent<HeaderProps> = ({ children }) => {
             </svg>
           </button>
         </div>
-        <nav className="flex-col items-center flex-grow hidden pb-4 border-[#704ecd] md:pb-0 md:flex md:justify-end md:flex-row lg:border-l-2 lg:pl-2">
+        <nav className="flex-col items-center flex-grow hidden pb-4 md:pb-0 md:flex md:justify-end md:flex-row lg:pl-2">
+
+        <Link href="/">
+            <a className="px-4 py-2 mt-2 text-sm text-gray-500 md:mt-0 hover:text-[#704ecd] focus:outline-none focus:shadow-outline">
+            Home
+            </a>
+          </Link>
+
+        <Link href="/how">
+            <a className="px-4 py-2 mt-2 text-sm text-gray-500 md:mt-0 hover:text-[#704ecd] focus:outline-none focus:shadow-outline">
+              How it works
+            </a>
+          </Link>
+
           <Link href="/pricing">
             <a className="px-4 py-2 mt-2 text-sm text-gray-500 md:mt-0 hover:text-[#704ecd] focus:outline-none focus:shadow-outline">
               Pricing
+            </a>
+          </Link>
+
+          <Link href="/faqs">
+            <a className="px-4 py-2 mt-2 text-sm text-gray-500 md:mt-0 hover:text-[#704ecd] focus:outline-none focus:shadow-outline">
+              FAQs
+            </a>
+          </Link>
+
+          <Link href="/about">
+            <a className="px-4 py-2 mt-2 text-sm text-gray-500 md:mt-0 hover:text-[#704ecd] focus:outline-none focus:shadow-outline">
+              About Us
             </a>
           </Link>
           <div className="inline-flex items-center gap-2 list-none lg:ml-auto">

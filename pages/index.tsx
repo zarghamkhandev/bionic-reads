@@ -13,7 +13,7 @@ export default function Home() {
       <Hero />
       <Video />
       <TrustedBy />
-      <EmbedSteps />
+    
       <Usecases />
       <Testimonials />
       <CTA />
