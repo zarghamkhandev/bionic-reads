@@ -1,6 +1,5 @@
 import Link from "next/link";
 import * as React from "react";
-
 interface FooterProps {}
 
 const Footer: React.FunctionComponent<FooterProps> = ({ children }) => {
@@ -14,28 +13,27 @@ const Footer: React.FunctionComponent<FooterProps> = ({ children }) => {
           <div className="space-y-8 xl:col-span-1">
             <a
               href="/"
-              className="text-lg font-bold tracking-tighter text-our-700 transition duration-500 ease-in-out transform tracking-relaxed lg:pr-8"
+              className="text-lg font-bold tracking-tighter transition duration-500 ease-in-out transform text-our-700 tracking-relaxed lg:pr-8"
             >
               Voicl
             </a>
             <p className="w-1/2 mt-2 text-sm text-gray-500">
-            Easily embed voice widgets on your site
+              Easily embed voice widgets on your site
             </p>
           </div>
           <div className="grid grid-cols-2 gap-8 mt-12 xl:mt-0 xl:col-span-2">
             <div className="md:grid md:grid-cols-2 md:gap-8">
               <div>
-                <h3 className="text-xs font-semibold tracking-wider text-our-700 uppercase ">
+                <h3 className="text-xs font-semibold tracking-wider uppercase text-our-700 ">
                   About us
                 </h3>
                 <ul role="list" className="mt-4 space-y-4">
                   <li>
-                    <a
-                      href="#"
-                      className="text-sm font-normal text-gray-500 hover:text-gray-900"
-                    >
-                      About us
-                    </a>
+                    <Link href="/about">
+                      <a className="text-sm font-normal text-gray-500 hover:text-gray-900">
+                        About us
+                      </a>
+                    </Link>
                   </li>
                   <li>
                     <a
@@ -64,7 +62,7 @@ const Footer: React.FunctionComponent<FooterProps> = ({ children }) => {
                 </ul>
               </div>
               <div className="mt-12 md:mt-0">
-                <h3 className="text-xs font-semibold tracking-wider  text-our-700  uppercase ">
+                <h3 className="text-xs font-semibold tracking-wider uppercase text-our-700 ">
                   Blog
                 </h3>
                 <ul role="list" className="mt-4 space-y-4">
@@ -103,7 +101,7 @@ const Footer: React.FunctionComponent<FooterProps> = ({ children }) => {
               </div>
             </div>
             <div className="hidden lg:justify-end md:grid md:grid-cols-1">
-              <div className="w-full mt-12 md:mt-0 hidden">
+              <div className="hidden w-full mt-12 md:mt-0">
                 <div className="mt-8 lg:justify-end xl:mt-0">
                   <h3 className="text-xs font-semibold tracking-wider text-blue-600 uppercase ">
                     Subscribe to our newsletter
