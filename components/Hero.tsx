@@ -37,7 +37,7 @@ const Hero: React.FunctionComponent<HeroProps> = ({}) => {
               </p>
               <div className="flex justify-center w-full max-w-2xl gap-2 mx-auto mt-6">
                 <div className="mt-3 rounded-lg sm:mt-0">
-                  <button className="items-center block px-5 py-4 text-base font-medium text-center text-white transition duration-500 ease-in-out transform bg-gradient-to-r from-[#a994e8] to-[#886adb] hover:bg-[#F6F3FB] text-white  lg:px-10 rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
+                  <button className="items-center block px-5 py-4 text-base font-normal text-center text-white transition duration-500 ease-in-out transform bg-gradient-to-r from-[#a994e8] to-[#886adb] hover:bg-[#F6F3FB] text-white  lg:px-10 rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
                     Start Now - its free
                   </button>
                 </div>

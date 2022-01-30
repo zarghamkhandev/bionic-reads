@@ -2,7 +2,7 @@ import * as React from "react";
 const Usecases: React.FunctionComponent = () => {
   return (
     <section className="text-gray-600">
-      <div className="flex flex-col w-full mt-20 text-center">
+      {/* <div className="flex flex-col w-full mt-20 text-center">
         <h1 className="mb-4 text-2xl font-bold text-gray-900 sm:text-5xl title-font">
           Some amazing use cases for you
         </h1>
@@ -10,8 +10,8 @@ const Usecases: React.FunctionComponent = () => {
           No matter if you're a SaaS, personal brand, service agency or podcast
           website - our voice widgets add value to everyone.
         </p>
-      </div>
-      <div className="container flex flex-col items-center px-5 pt-24 mx-auto md:flex-row md:items-center">
+      </div> */}
+      <div className="container flex flex-col items-center px-5 mx-auto md:flex-row md:items-center">
         <div className="flex flex-col items-center mb-16 text-center lg:flex-grow md:w-1/2 md:pr-6 md:items-start md:text-left md:mb-0">
           <h1 className="mb-4 text-xl font-semibold text-gray-900 title-font sm:text-5xl ">
             Welcome your audience
