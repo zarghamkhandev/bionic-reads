@@ -130,7 +130,6 @@ const SlideShow: React.FunctionComponent<SlideShowProps> = ({}) => {
           >
             <div className="mx-auto w-fit">{widgets[dataIndex].content}</div>
             <div className="flex flex-col items-center justify-center w-full mt-4">
-              <h1 className="text-lg font-bold">{widgets[dataIndex].type}</h1>
               <p className="text-sm">{widgets[dataIndex].description}</p>
             </div>
           </motion.div>
