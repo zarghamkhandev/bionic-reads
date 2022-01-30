@@ -1,5 +1,9 @@
 import * as React from "react";
+import { useEffect } from "react";
 const Usecases: React.FunctionComponent = () => {
+  useEffect(() => {
+    import("widgets-ui/build/bundle");
+  }, []);
   return (
     <section className="text-gray-600">
       {/* <div className="flex flex-col w-full mt-20 text-center">
@@ -74,11 +78,7 @@ const Usecases: React.FunctionComponent = () => {
           </nav>
         </div>
         <div className="w-5/6 lg:max-w-lg lg:w-2/5 md:w-1/2">
-          <img
-            className="object-cover object-center rounded"
-            alt="hero"
-            src="/welc_your_users_1.svg"
-          />
+          <voicy-momina></voicy-momina>
         </div>
       </div>
       <div className="container flex flex-col flex-col-reverse items-center px-5 pt-24 mx-auto md:flex-row md:items-start">
