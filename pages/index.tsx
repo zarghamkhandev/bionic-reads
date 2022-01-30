@@ -12,8 +12,8 @@ export default function Home() {
     <Layout>
       <Hero />
       <Video />
-      <TrustedBy />
-    
+      {/* <TrustedBy /> */}
+
       <Usecases />
       <Testimonials />
       <CTA />
