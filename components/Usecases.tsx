@@ -2,7 +2,8 @@ import * as React from "react";
 import { useEffect } from "react";
 const Usecases: React.FunctionComponent = () => {
   useEffect(() => {
-    import("widgets-ui/build/bundle");
+    import("widgets-ui/build/827.bundle.js");
+    import("widgets-ui/build/bundle.js");
   }, []);
   return (
     <section className="text-gray-600">
@@ -303,3 +304,10 @@ const Usecases: React.FunctionComponent = () => {
 };
 
 export default Usecases;
+declare global {
+  namespace JSX {
+    interface IntrinsicElements {
+      ["voicy-momina"]: any;
+    }
+  }
+}
