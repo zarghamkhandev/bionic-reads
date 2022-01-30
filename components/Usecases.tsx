@@ -1,12 +1,7 @@
 import * as React from "react";
-import { useEffect } from "react";
 const Usecases: React.FunctionComponent = () => {
-  useEffect(() => {
-    import("widgets-ui/build/827.bundle.js");
-    import("widgets-ui/build/bundle.js");
-  }, []);
   return (
-    <section className="text-gray-600">
+    <section className="mt-24 text-gray-600">
       {/* <div className="flex flex-col w-full mt-20 text-center">
         <h1 className="mb-4 text-2xl font-bold text-gray-900 sm:text-5xl title-font">
           Some amazing use cases for you
@@ -78,9 +73,7 @@ const Usecases: React.FunctionComponent = () => {
             <a></a>
           </nav>
         </div>
-        <div className="w-5/6 lg:max-w-lg lg:w-2/5 md:w-1/2">
-          <voicy-momina></voicy-momina>
-        </div>
+        <div className="w-5/6 lg:max-w-lg lg:w-2/5 md:w-1/2"></div>
       </div>
       <div className="container flex flex-col flex-col-reverse items-center px-5 pt-24 mx-auto md:flex-row md:items-start">
         <div className="w-5/6 lg:max-w-lg lg:w-2/5 md:w-1/2">

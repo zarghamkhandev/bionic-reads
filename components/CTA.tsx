@@ -9,11 +9,11 @@ const CTA: FunctionComponent = () => {
           Getting started is easy and takes a couple of minutes only. No credit
           card required. No hidden fees.
         </p>
-        <div className="flex mt-10 -mx-2 lg:flex-shrink-0">
-          <button className="items-center block px-10 py-3 mx-2 text-base font-medium text-center transition duration-500 ease-in-out transform border border-our-500 text-slate-800 rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-our-500">
+        <div className="flex flex-wrap mt-10 -mx-2">
+          <button className="items-center block px-10 py-3 mx-2 text-sm font-medium text-center transition duration-500 ease-in-out transform border border-our-500 text-slate-800 rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-our-500">
             Book Demo
           </button>
-          <button className="mx-2 items-center block px-10 py-3 text-base font-medium text-center text-white transition duration-500 ease-in-out transform bg-gradient-to-r from-[#a994e8] to-[#886adb] rounded-xl  focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
+          <button className="mt-2 sm:mt-0 text-sm whitespace-nowrap mx-2 items-center block px-10 py-3 font-medium text-center text-white transition duration-500 ease-in-out transform bg-gradient-to-r from-[#a994e8] to-[#886adb] rounded-xl  focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
             Start Now - its free
           </button>
         </div>
