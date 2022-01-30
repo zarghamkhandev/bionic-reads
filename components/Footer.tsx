@@ -13,7 +13,7 @@ const Footer: React.FunctionComponent<FooterProps> = ({ children }) => {
           <div className="space-y-8 xl:col-span-1">
             <a
               href="/"
-              className="text-lg font-bold tracking-tighter transition duration-500 ease-in-out transform text-our-700 tracking-relaxed lg:pr-8"
+              className="text-lg font-bold ion-500 ease-in-out transform text-our-700 tracking-relaxed lg:pr-8"
             >
               Voicl
             </a>

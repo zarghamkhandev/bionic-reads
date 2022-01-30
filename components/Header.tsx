@@ -12,7 +12,7 @@ const Header: React.FunctionComponent<HeaderProps> = ({ children }) => {
         <div className="flex flex-row items-center justify-between lg:justify-start">
           <a
             href="/"
-            className="text-lg font-bold tracking-tighter text-[#704ecd] transition duration-500 ease-in-out transform tracking-relaxed lg:pr-8"
+            className="text-lg font-bold  text-[#704ecd] transition duration-500 ease-in-out transform tracking-relaxed lg:pr-8"
           >
             Voicl
           </a>
