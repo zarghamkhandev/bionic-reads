@@ -3,9 +3,7 @@ import { wrap } from "popmotion";
 import React, { useEffect, useState } from "react";
 import { BsChevronLeft, BsChevronRight } from "react-icons/bs";
 
-interface SlideShowProps {
-  data: JSX.Element[];
-}
+interface SlideShowProps {}
 const variants: Variants = {
   enter: (direction: number) => {
     return {
@@ -27,7 +25,73 @@ const variants: Variants = {
     };
   },
 };
-const SlideShow: React.FunctionComponent<SlideShowProps> = ({ data }) => {
+const SlideShow: React.FunctionComponent<SlideShowProps> = ({}) => {
+  const widgets = [
+    {
+      type: "Listen Voicy",
+      description:
+        "Out most popular voicy, used to collect customer feedback via voice. Highly customizable.",
+      content: (
+        <div className="flex border shadow-lg" style={{ borderRadius: "20px" }}>
+          <voicy-momina imageUrl="/images/memoji_1.gif"></voicy-momina>
+        </div>
+      ),
+    },
+    {
+      type: "Speak Voicy",
+      description:
+        "describe your voicy here, whats the purpose, whats the use case.",
+      content: (
+        <div className="flex">
+          <voicy-meghan imageUrl="/images/memoji_1.gif"></voicy-meghan>
+        </div>
+      ),
+    },
+    {
+      type: "Speak Voicy",
+      description:
+        "describe your voicy here, whats the purpose, whats the use case.",
+      content: (
+        <div className="flex">
+          <voicy-malik imageUrl="/images/memoji_1.gif"></voicy-malik>
+        </div>
+      ),
+    },
+    {
+      type: "Speak Voicy",
+      description:
+        "describe your voicy here, whats the purpose, whats the use case.",
+      content: (
+        <div className="flex">
+          <voicy-cta
+            imageUrl="/images/memoji_1.gif"
+            style={{ borderWidth: "1px" }}
+          ></voicy-cta>
+        </div>
+      ),
+    },
+    {
+      type: "Speak Voicy",
+      description:
+        "describe your voicy here, whats the purpose, whats the use case.",
+      content: (
+        <div className="flex">
+          <voicy-usman imageUrl="/images/memoji_1.gif"></voicy-usman>
+        </div>
+      ),
+    },
+    {
+      type: "Speak Voicy",
+      description:
+        "describe your voicy here, whats the purpose, whats the use case.",
+      content: (
+        <div className="flex">
+          <voicy-nicky imageUrl="/images/memoji_1.gif"></voicy-nicky>
+        </div>
+      ),
+    },
+  ];
+
   const [[page, direction], setPage] = useState([0, 0]);
 
   const paginate = (newDirection: number) => {
@@ -46,7 +110,7 @@ const SlideShow: React.FunctionComponent<SlideShowProps> = ({ data }) => {
   const back = () => {
     paginate(-1);
   };
-  const dataIndex = wrap(0, data.length, page);
+  const dataIndex = wrap(0, widgets.length, page);
   return (
     <div className="flex flex-col w-full ">
       <div className="flex justify-center w-full overflow-hidden ">
@@ -56,7 +120,7 @@ const SlideShow: React.FunctionComponent<SlideShowProps> = ({ data }) => {
           exitBeforeEnter={true}
         >
           <motion.div
-            className="px-2 py-4 mx-2 mx-auto overflow-hidden w-fit"
+            className="h-56 px-2 py-4 mx-2 mx-auto overflow-hidden w-fit"
             key={page}
             custom={direction}
             variants={variants}
@@ -64,7 +128,11 @@ const SlideShow: React.FunctionComponent<SlideShowProps> = ({ data }) => {
             animate="center"
             exit="exit"
           >
-            {data[dataIndex]}
+            <div className="mx-auto w-fit">{widgets[dataIndex].content}</div>
+            <div className="flex flex-col items-center justify-center w-full mt-4">
+              <h1 className="text-lg font-bold">{widgets[dataIndex].type}</h1>
+              <p className="text-sm">{widgets[dataIndex].description}</p>
+            </div>
           </motion.div>
         </AnimatePresence>
       </div>

@@ -7,11 +7,6 @@ const TryIt: React.FunctionComponent = () => {
     import("widgets-ui/build/bundle.js");
   }, []);
 
-  const widgets = [
-    <div className="flex border shadow-lg" style={{ borderRadius: "20px" }}>
-      <voicy-momina imageUrl="/images/memoji_1.gif"></voicy-momina>
-    </div>,
-  ];
   return (
     <section className="flex flex-col w-full p-10 text-gray-600 rounded-2xl">
       <div className="flex justify-between">
@@ -20,7 +15,7 @@ const TryIt: React.FunctionComponent = () => {
         </h1>
       </div>
       <div className="flex justify-center w-full mt-20">
-        <SlideShow data={widgets} />
+        <SlideShow />
       </div>
     </section>
   );
@@ -31,6 +26,11 @@ declare global {
   namespace JSX {
     interface IntrinsicElements {
       ["voicy-momina"]: any;
+      ["voicy-meghan"]: any;
+      ["voicy-cta"]: any;
+      ["voicy-malik"]: any;
+      ["voicy-usman"]: any;
+      ["voicy-nicky"]: any;
     }
   }
 }
