@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <Layout>
       <Hero />
-      <Video />
+      {/* <Video /> */}
       {/* <TrustedBy /> */}
 
       <Usecases />
