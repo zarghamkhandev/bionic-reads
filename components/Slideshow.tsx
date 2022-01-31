@@ -30,7 +30,7 @@ const SlideShow: React.FunctionComponent<SlideShowProps> = ({}) => {
     {
       type: "Listen Voicy",
       description:
-        "Out most popular voicy, used to collect customer feedback via voice. Highly customizable.",
+        "Our most popular voicy, used to collect customer feedback via voice. Fully customizable.",
       content: (
         <div className="flex border shadow-lg" style={{ borderRadius: "20px" }}>
           <voicy-momina imageUrl="/images/memoji_1.gif"></voicy-momina>
@@ -40,7 +40,7 @@ const SlideShow: React.FunctionComponent<SlideShowProps> = ({}) => {
     {
       type: "Speak Voicy",
       description:
-        "describe your voicy here, whats the purpose, whats the use case.",
+        "Simple yet effective - catch your audience's attention with this cool animated voicy.",
       content: (
         <div className="flex">
           <voicy-meghan imageUrl="/images/memoji_1.gif"></voicy-meghan>
@@ -50,7 +50,7 @@ const SlideShow: React.FunctionComponent<SlideShowProps> = ({}) => {
     {
       type: "Speak Voicy",
       description:
-        "describe your voicy here, whats the purpose, whats the use case.",
+        "This is a CTA voicy. Encourage people to take action using your voice!",
       content: (
         <div className="flex">
           <voicy-malik imageUrl="/images/memoji_1.gif"></voicy-malik>
@@ -60,7 +60,7 @@ const SlideShow: React.FunctionComponent<SlideShowProps> = ({}) => {
     {
       type: "Speak Voicy",
       description:
-        "describe your voicy here, whats the purpose, whats the use case.",
+        "Another cool animated voicy - people won't be able to resist listening to it.",
       content: (
         <div className="flex">
           <voicy-cta
@@ -73,7 +73,7 @@ const SlideShow: React.FunctionComponent<SlideShowProps> = ({}) => {
     {
       type: "Speak Voicy",
       description:
-        "describe your voicy here, whats the purpose, whats the use case.",
+        "The classic. Use this voicy to read out big texts, give extra information or introduce yourself.",
       content: (
         <div className="flex">
           <voicy-usman imageUrl="/images/memoji_1.gif"></voicy-usman>
@@ -83,7 +83,7 @@ const SlideShow: React.FunctionComponent<SlideShowProps> = ({}) => {
     {
       type: "Speak Voicy",
       description:
-        "describe your voicy here, whats the purpose, whats the use case.",
+        "The minimalists - put this voicy anywhere on your website to increase engagement.",
       content: (
         <div className="flex">
           <voicy-nicky imageUrl="/images/memoji_1.gif"></voicy-nicky>

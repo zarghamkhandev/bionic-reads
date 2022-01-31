@@ -2,7 +2,7 @@ import * as React from "react";
 const Usecases: React.FunctionComponent = () => {
   return (
     <section className="mt-24 text-gray-600">
-      <div className="container flex flex-col flex-col-reverse items-center px-5 pt-24 mx-auto md:flex-row md:items-start">
+      <div className="container bg-our-600 flex flex-col flex-col-reverse rounded-3xl items-center px-5 pt-24 mx-auto md:flex-row md:items-start">
         <div className="w-5/6 lg:max-w-lg lg:w-2/5 md:w-1/2">
           <img
             className="object-cover object-center rounded"
@@ -11,17 +11,22 @@ const Usecases: React.FunctionComponent = () => {
           />
         </div>
         <div className="flex flex-col items-center mb-16 text-center lg:flex-grow md:w-1/2 md:pl-6 md:items-start md:text-left md:mb-0">
-          <h1 className="mb-4 text-xl font-semibold text-gray-900 title-font sm:text-4xl ">
+          <h1 className="mb-4 text-xl font-semibold tracking-tighter text-our-100 title-font sm:text-4xl ">
             Use speak voicys to explain your product
           </h1>
-          <p className="mb-8 leading-relaxed">
+          <p className="mb-8 text-lg font-normal tracking-tighter text-our-100 leading-relaxed">
             Sometimes a good copy just isn't enough to make people understand
             what it is you do. Instead, simply TELL them what you're all about -
             in your own words, using your own voice.
           </p>
-          <nav className="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1 space-y-2.5">
-            <a>
-              <span className="inline-flex items-center justify-center w-4 h-4 mr-2 text-indigo-500 bg-indigo-100 rounded-full">
+          <svg width="157" height="1" viewBox="0 0 157 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="157" height="1" fill="white"/>
+</svg>
+
+
+          <nav className="flex flex-col mt-8 tracking-tighter sm:items-start sm:text-left text-center items-center -mb-1 space-y-2.5">
+            <a className="text-our-100 text-sm">
+              <span className="inline-flex items-center justify-center w-4 h-4 mr-2 text-our-600 bg-our-100 rounded-full">
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -34,10 +39,10 @@ const Usecases: React.FunctionComponent = () => {
                   <path d="M20 6L9 17l-5-5" />
                 </svg>
               </span>
-              Creates trust
+              CREATES TRUST
             </a>
-            <a>
-              <span className="inline-flex items-center justify-center w-4 h-4 mr-2 text-indigo-500 bg-indigo-100 rounded-full">
+            <a className="text-our-100 text-sm">
+              <span className="inline-flex items-center justify-center w-4 h-4 mr-2 text-our-600 bg-our-100 rounded-full">
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -50,10 +55,10 @@ const Usecases: React.FunctionComponent = () => {
                   <path d="M20 6L9 17l-5-5" />
                 </svg>
               </span>
-              Increases conversions
+              INCREASES CONVERSIONS
             </a>
-            <a>
-              <span className="inline-flex items-center justify-center w-4 h-4 mr-2 text-indigo-500 bg-indigo-100 rounded-full">
+            <a className="text-our-100 text-sm">
+              <span className="inline-flex items-center justify-center w-4 h-4 mr-2 text-our-600 bg-our-100 rounded-full">
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -66,7 +71,7 @@ const Usecases: React.FunctionComponent = () => {
                   <path d="M20 6L9 17l-5-5" />
                 </svg>
               </span>
-              Decreases churn rate
+              DECREASES CHURN RATE
             </a>
             <a></a>
             <a></a>
@@ -74,18 +79,20 @@ const Usecases: React.FunctionComponent = () => {
         </div>
       </div>
 
-      <div className="container flex flex-col items-center px-5 mx-auto mt-40 md:flex-row md:items-center">
-        <div className="flex flex-col items-center mb-16 text-center lg:flex-grow md:w-1/2 md:pr-6 md:items-start md:text-left md:mb-0">
-          <h1 className="mb-4 text-xl font-semibold text-gray-900 title-font sm:text-3xl ">
-            Use Listen voicys to collect customer feedback.
+      <div className="container flex bg-our-600 rounded-3xl flex-col items-center px-5 mx-auto mt-40 md:flex-row md:items-center">
+      <div className="flex flex-col items-center mb-16 text-center lg:flex-grow md:w-1/2 md:pl-6 md:items-start md:text-left md:mb-0">
+          <h1 className="mb-4 mt-24 text-xl font-semibold tracking-tighter text-our-100 title-font sm:text-4xl ">
+            Use Listen voicys to collect customer feedback
           </h1>
-          <p className="mb-8 leading-relaxed">
-            As soon as someone enters your page, tell them a quick nice hello
-            and make them feel appreciated. You can also introduce yourself. :)
+          <p className="mb-8 tracking-tighter text-our-100 leading-relaxed">
+            Ask your audience for their opinion directly. Plus, people will leave feedback more frequently because it doesn't cost them time typing it down anymore.
           </p>
-          <nav className="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1 space-y-2.5">
-            <a>
-              <span className="inline-flex items-center justify-center w-4 h-4 mr-2 text-indigo-500 bg-indigo-100 rounded-full">
+          <svg width="157" height="1" viewBox="0 0 157 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="157" height="1" fill="white"/>
+</svg>
+          <nav className="flex flex-col mt-8 mb-24 tracking-tighter sm:items-start sm:text-left text-center items-center -mb-1 space-y-2.5">
+            <a className="text-our-100 text-sm">
+              <span className="inline-flex items-center justify-center w-4 h-4 mr-2 text-our-600 bg-our-100 rounded-full">
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -98,10 +105,10 @@ const Usecases: React.FunctionComponent = () => {
                   <path d="M20 6L9 17l-5-5" />
                 </svg>
               </span>
-              Builds trust
+              VALIDATE & IMPROVE YOUR PRODUCT
             </a>
-            <a>
-              <span className="inline-flex items-center justify-center w-4 h-4 mr-2 text-indigo-500 bg-indigo-100 rounded-full">
+            <a className="text-our-100 text-sm">
+              <span className="inline-flex items-center justify-center w-4 h-4 mr-2 text-our-600 bg-our-100 rounded-full">
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -114,10 +121,10 @@ const Usecases: React.FunctionComponent = () => {
                   <path d="M20 6L9 17l-5-5" />
                 </svg>
               </span>
-              Establishes a personal connection between you and your users
+              RECEIVE DIRECT FEEDBACK
             </a>
-            <a>
-              <span className="inline-flex items-center justify-center w-4 h-4 mr-2 text-indigo-500 bg-indigo-100 rounded-full">
+            <a className="text-our-100 text-sm">
+              <span className="inline-flex items-center justify-center w-4 h-4 mr-2 text-our-600 bg-our-100 rounded-full">
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -130,7 +137,7 @@ const Usecases: React.FunctionComponent = () => {
                   <path d="M20 6L9 17l-5-5" />
                 </svg>
               </span>
-              Makes your site stand out amongst competition
+              INVOLVE YOUR AUDIENCE
             </a>
             <a></a>
             <a></a>
@@ -139,26 +146,27 @@ const Usecases: React.FunctionComponent = () => {
         <div className="w-5/6 lg:max-w-lg lg:w-2/5 md:w-1/2"></div>
       </div>
 
-      <div className="container flex flex-col flex-col-reverse items-center px-5 pt-24 mx-auto mt-40 md:flex-row md:items-start">
+      <div className="container flex rounded-3xl flex-col flex-col-reverse bg-our-600 items-center px-5 pt-24 mx-auto mt-40 md:flex-row md:items-start">
         <div className="w-5/6 lg:max-w-lg lg:w-1/2 md:w-1/2">
           <img
-            className="object-cover object-center border border-gray-200 rounded-xl"
+            className="object-cover mb-24 object-center border border-gray-200 rounded-xl"
             alt="hero"
             src="/images/graph.png"
           />
         </div>
-        <div className="flex flex-col items-center mb-16 text-center lg:flex-grow md:w-1/2 md:pl-10 md:items-start md:text-left md:mb-0">
-          <h1 className="mb-4 text-xl font-semibold text-gray-900 title-font sm:text-4xl ">
-            Track customer interaction in real-time.
+        <div className="flex flex-col items-center mb-16 text-center lg:flex-grow md:w-1/2 md:pl-6 md:items-start md:text-left md:mb-0">
+          <h1 className="mb-4 text-xl font-semibold tracking-tighter text-our-100 title-font sm:text-4xl ">
+            Track customer interaction in real-time
           </h1>
-          <p className="mb-8 leading-relaxed">
-            Sometimes a good copy just isn't enough to make people understand
-            what it is you do. Instead, simply TELL them what you're all about -
-            in your own words, using your own voice.
+          <p className="mb-8 tracking-tighter text-our-100 leading-relaxed">
+            Our analytics give you a clear insight into your voicys' and ultimately your websites' performance. The engagement graph shows you how much of your voicy people listened to and where you lose them.
           </p>
-          <nav className="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1 space-y-2.5">
-            <a>
-              <span className="inline-flex items-center justify-center w-4 h-4 mr-2 text-indigo-500 bg-indigo-100 rounded-full">
+          <svg width="157" height="1" viewBox="0 0 157 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="157" height="1" fill="white"/>
+</svg>
+          <nav className="flex flex-col tracking-tighter mt-8 sm:items-start sm:text-left text-center items-center -mb-1 space-y-2.5">
+            <a className="text-our-100 text-sm">
+              <span className="inline-flex items-center justify-center w-4 h-4 mr-2 text-our-600 bg-our-100 rounded-full">
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -171,10 +179,10 @@ const Usecases: React.FunctionComponent = () => {
                   <path d="M20 6L9 17l-5-5" />
                 </svg>
               </span>
-              Creates trust
+              OPTIMIZE YOUR WEBSITE ENGAGEMENT
             </a>
-            <a>
-              <span className="inline-flex items-center justify-center w-4 h-4 mr-2 text-indigo-500 bg-indigo-100 rounded-full">
+            <a className="text-our-100 text-sm"> 
+              <span className="inline-flex items-center justify-center w-4 h-4 mr-2 text-our-600 bg-our-100 rounded-full">
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -187,10 +195,10 @@ const Usecases: React.FunctionComponent = () => {
                   <path d="M20 6L9 17l-5-5" />
                 </svg>
               </span>
-              Increases conversions
+              INCREASE CONVERSIONS 
             </a>
-            <a>
-              <span className="inline-flex items-center justify-center w-4 h-4 mr-2 text-indigo-500 bg-indigo-100 rounded-full">
+            <a className="text-our-100 text-sm">
+              <span className="inline-flex items-center justify-center w-4 h-4 mr-2 text-our-600 bg-our-100 rounded-full">
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -203,7 +211,7 @@ const Usecases: React.FunctionComponent = () => {
                   <path d="M20 6L9 17l-5-5" />
                 </svg>
               </span>
-              Decreases churn rate
+              TRACK AUDIENCE BEHAVIOUR & INTEREST
             </a>
             <a></a>
             <a></a>

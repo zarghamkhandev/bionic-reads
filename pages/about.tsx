@@ -15,11 +15,11 @@ export default function How() {
             ABOUT US
           </p>
           <h2 className="relative max-w-lg mt-5 mb-10 text-4xl font-semibold lg:text-5xl">
-            Voicl is tool which lets you place voice notes onto your website.
+            Voicl is a tool which lets you place voice notes onto your website.
           </h2>
 
           <p className="relative mt-5 mb-10 text-xl font-semibold leading-tight lg:text-2xl">
-            We're a fully remote self funded startup making websites experience
+            We're a fully remote self funded startup making website experiences
             much better with voice.
           </p>
 

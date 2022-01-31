@@ -8,10 +8,10 @@ const TryIt: React.FunctionComponent = () => {
   }, []);
 
   return (
-    <section className="flex flex-col w-full p-10 text-gray-600 rounded-2xl">
+    <section className="flex flex-col w-full p-10 bg-our-200 shadow-lg text-our-700 rounded-2xl">
       <div className="flex justify-between">
-        <h1 className="mx-auto mb-4 text-xl font-normal text-slate-800 title-font sm:text-3xl arrow">
-          Meet your voicys
+        <h1 className="mx-auto mb-4 text-xl font-semibold tracking-tighter text-our-800 title-font sm:text-3xl arrow">
+          Meet the voicy squad
         </h1>
       </div>
       <div className="flex justify-center w-full mt-20">
