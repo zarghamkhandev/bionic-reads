@@ -8,7 +8,7 @@ const TryIt: React.FunctionComponent = () => {
   }, []);
 
   return (
-    <section className="flex flex-col w-full px-2 py-10 mx-2 bg-our-200 text-our-700 rounded-2xl">
+    <section className="flex flex-col w-full px-2 py-10 bg-our-200 text-our-700 rounded-2xl">
       <div className="flex justify-between">
         <h1 className="mx-auto mb-4 text-xl font-semibold tracking-tighter text-our-800 title-font sm:text-3xl arrow">
           Meet the voicy squad
