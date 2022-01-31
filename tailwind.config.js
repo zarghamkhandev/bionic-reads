@@ -5,6 +5,7 @@ module.exports = {
   ],
   theme: {
     extend: {
+       
       colors: {
         our: {
           100: "#F6F3FB",
@@ -19,7 +20,13 @@ module.exports = {
           800: "#442c76",
         },
       },
+
+      backgroundimage: {
+        purpledurple: 'linear-gradient(to right bottom, #836bd4, #8972d7, #8f78da, #947fdd, #9a86e0)',
+      } 
     },
+
+
     fontFamily: {
       sans: [
         "Inter",
