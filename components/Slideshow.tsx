@@ -32,8 +32,11 @@ const SlideShow: React.FunctionComponent<SlideShowProps> = ({}) => {
       description:
         "Our most popular voicy, used to collect customer feedback via voice. Fully customizable.",
       content: (
-        <div className="flex border shadow-lg" style={{ borderRadius: "20px" }}>
-          <voicy-momina imageUrl="/images/memoji_1.gif"></voicy-momina>
+        <div className="flex justify-center w-100">
+          <voicy-momina
+            imageUrl="/images/memoji_1.gif"
+            class="voicy-momina"
+          ></voicy-momina>
         </div>
       ),
     },
@@ -42,7 +45,7 @@ const SlideShow: React.FunctionComponent<SlideShowProps> = ({}) => {
       description:
         "Simple yet effective - catch your audience's attention with this cool animated voicy.",
       content: (
-        <div className="flex">
+        <div className="flex justify-center w-100">
           <voicy-meghan imageUrl="/images/memoji_1.gif"></voicy-meghan>
         </div>
       ),
@@ -52,7 +55,7 @@ const SlideShow: React.FunctionComponent<SlideShowProps> = ({}) => {
       description:
         "This is a CTA voicy. Encourage people to take action using your voice!",
       content: (
-        <div className="flex">
+        <div className="flex justify-center w-100">
           <voicy-malik imageUrl="/images/memoji_1.gif"></voicy-malik>
         </div>
       ),
@@ -62,7 +65,7 @@ const SlideShow: React.FunctionComponent<SlideShowProps> = ({}) => {
       description:
         "Another cool animated voicy - people won't be able to resist listening to it.",
       content: (
-        <div className="flex">
+        <div className="flex justify-center w-100">
           <voicy-cta
             imageUrl="/images/memoji_1.gif"
             style={{ borderWidth: "1px" }}
@@ -75,7 +78,7 @@ const SlideShow: React.FunctionComponent<SlideShowProps> = ({}) => {
       description:
         "The classic. Use this voicy to read out big texts, give extra information or introduce yourself.",
       content: (
-        <div className="flex">
+        <div className="flex justify-center w-100">
           <voicy-usman imageUrl="/images/memoji_1.gif"></voicy-usman>
         </div>
       ),
@@ -85,7 +88,7 @@ const SlideShow: React.FunctionComponent<SlideShowProps> = ({}) => {
       description:
         "The minimalists - put this voicy anywhere on your website to increase engagement.",
       content: (
-        <div className="flex">
+        <div className="flex justify-center w-100">
           <voicy-nicky imageUrl="/images/memoji_1.gif"></voicy-nicky>
         </div>
       ),
@@ -120,7 +123,7 @@ const SlideShow: React.FunctionComponent<SlideShowProps> = ({}) => {
           exitBeforeEnter={true}
         >
           <motion.div
-            className="h-56 px-2 py-4 mx-2 mx-auto overflow-hidden w-fit"
+            className="h-56 py-4 mx-auto overflow-hidden w-100"
             key={page}
             custom={direction}
             variants={variants}
@@ -128,7 +131,7 @@ const SlideShow: React.FunctionComponent<SlideShowProps> = ({}) => {
             animate="center"
             exit="exit"
           >
-            <div className="mx-auto w-fit">{widgets[dataIndex].content}</div>
+            <div className="mx-auto w-100">{widgets[dataIndex].content}</div>
             <div className="flex flex-col items-center justify-center w-full mt-4">
               <p className="text-sm">{widgets[dataIndex].description}</p>
             </div>
