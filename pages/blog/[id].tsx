@@ -17,13 +17,18 @@ const Blog: NextPage<Props> = ({ post }) => {
         <div className="flex flex-col w-full mx-auto mb-2 prose text-left prose-md">
           <div className="mb-5 border-b border-gray-200">
             <div className="flex flex-wrap items-baseline -mt-2">
-              <h5>12-03-2021</h5>
-              <p className="mt-1 ml-2">Transitions</p>
+              <h5>
+                {new Date(post.date).toLocaleDateString([], {
+                  day: "2-digit",
+                  month: "short",
+                  year: "numeric",
+                })}
+              </h5>
+              {/* <p className="mt-1 ml-2">{}</p> */}
             </div>
           </div>
           <h1 className="mb-4 text-3xl font-bold text-gray-900 sm:text-4xl title-font">
-            Page transitions are a fundamental part of website navigation and
-            user experience.
+            {post.title.rendered}
           </h1>
           <div
             className="mt-8 text-base leading-relaxed text-gray-700 "
