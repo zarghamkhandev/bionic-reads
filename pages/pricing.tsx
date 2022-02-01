@@ -9,7 +9,8 @@ export default function Pricing() {
     yearly: { starter: 144, pro: 278 },
   };
 
-  const freeFeatures = ["Ideal for exploring voicl"];
+  const freeFeatures = ["Limited customization", "500 views/month", "30sec recording length", "No analytics", "3 voicys/month"
+];
   const starterFeatures = [
     "Unlimited customization",
     "15.000 views/month",
