@@ -22,14 +22,9 @@ const Video: FunctionComponent<VideoProps> = () => {
     ],
   };
 
-  const handlePlayerReady = (player: VideoJsPlayer) => {
-    playerRef.current = player;
-
-    // you can handle player events here
-  };
   return (
     <div className="mx-5 overflow-hidden border border-gray-200 rounded-lg shadow md:mx-6 lg:mx-8">
-      <VideoPlayer options={videoJsOptions} onReady={handlePlayerReady} />
+      <VideoPlayer options={videoJsOptions} />
     </div>
   );
 };

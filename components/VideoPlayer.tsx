@@ -5,7 +5,7 @@ import "@videojs/themes/dist/sea/index.css";
 
 interface VideoPlayerProps {
   options: VideoJsPlayerOptions;
-  onReady: any;
+  onReady?: any;
 }
 
 export const VideoJS: FunctionComponent<VideoPlayerProps> = (props) => {
