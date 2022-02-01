@@ -11,13 +11,19 @@ const Testimonials: React.FunctionComponent = () => {
       
 
       <div className="px-5 pt-16 ">
+        
         <div className="flex flex-wrap justify-center -m-4">
+        <img
+                alt="testimonial"
+                className="inline-block object-cover object-center w-20 h-20 mb-8 bg-gray-100 border-2 border-gray-200 rounded-full"
+                src="/victor_feedback.png"
+              />
           <div className="p-4 mb-6 lg:w-1/3 lg:mb-0">
             <div className="h-full text-center">
               <img
                 alt="testimonial"
                 className="inline-block object-cover object-center w-20 h-20 mb-8 bg-gray-100 border-2 border-gray-200 rounded-full"
-                src="/77.svg"
+                src="/victor_feedback.png"
               />
               <p className="leading-relaxed">
                 Voicl is a gamechanger for us by helping explain our product to our customers - genius.

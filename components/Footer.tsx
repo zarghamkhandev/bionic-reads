@@ -74,6 +74,13 @@ const Footer: React.FunctionComponent<FooterProps> = ({ children }) => {
                     </Link>
                   </li>
                   <li>
+                    <Link href="/blog/16">
+                      <a className="text-sm font-normal text-gray-500 hover:text-gray-900">
+                        Why an interactive website will increase engagement and conversions
+                      </a>
+                    </Link>
+                  </li>
+                  <li>
                     <a
                       href="#"
                       className="text-sm font-normal text-gray-500 hover:text-gray-900"
