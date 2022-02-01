@@ -19,12 +19,10 @@ const Usecases: React.FunctionComponent = () => {
             what it is you do. Instead, simply TELL them what you're all about -
             in your own words, using your own voice.
           </p>
-          
-
 
           <nav className="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1 space-y-2.5">
             <a className="text-sm">
-              <span className="inline-flex items-center justify-center w-4 h-4 mr-2 text-our-800 bg-our-300 rounded-full">
+              <span className="inline-flex items-center justify-center w-4 h-4 mr-2 rounded-full text-our-800 bg-our-300">
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -40,7 +38,7 @@ const Usecases: React.FunctionComponent = () => {
               CREATES TRUST
             </a>
             <a className="text-sm">
-              <span className="inline-flex items-center justify-center w-4 h-4 mr-2 text-our-800 bg-our-300 rounded-full">
+              <span className="inline-flex items-center justify-center w-4 h-4 mr-2 rounded-full text-our-800 bg-our-300">
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -56,7 +54,7 @@ const Usecases: React.FunctionComponent = () => {
               INCREASES CONVERSIONS
             </a>
             <a className="text-sm">
-              <span className="inline-flex items-center justify-center w-4 h-4 mr-2 text-our-800 bg-our-300 rounded-full">
+              <span className="inline-flex items-center justify-center w-4 h-4 mr-2 rounded-full text-our-800 bg-our-300">
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -89,7 +87,7 @@ const Usecases: React.FunctionComponent = () => {
           </p>
           <nav className="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1 space-y-2.5">
             <a className="text-sm">
-              <span className="inline-flex items-center justify-center w-4 h-4 mr-2 text-our-800 bg-our-300 rounded-full">
+              <span className="inline-flex items-center justify-center w-4 h-4 mr-2 rounded-full text-our-800 bg-our-300">
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -105,7 +103,7 @@ const Usecases: React.FunctionComponent = () => {
               VALIDATE & IMPROVE YOUR PRODUCT
             </a>
             <a className="text-sm">
-              <span className="inline-flex items-center justify-center w-4 h-4 mr-2 text-our-800 bg-our-300 rounded-full">
+              <span className="inline-flex items-center justify-center w-4 h-4 mr-2 rounded-full text-our-800 bg-our-300">
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -121,7 +119,7 @@ const Usecases: React.FunctionComponent = () => {
               RECEIVE DIRECT FEEDBACK
             </a>
             <a className="text-sm">
-              <span className="inline-flex items-center justify-center w-4 h-4 mr-2 text-our-800 bg-our-300 rounded-full">
+              <span className="inline-flex items-center justify-center w-4 h-4 mr-2 rounded-full text-our-800 bg-our-300">
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -140,7 +138,13 @@ const Usecases: React.FunctionComponent = () => {
             <a></a>
           </nav>
         </div>
-        <div className="w-5/6 lg:max-w-lg lg:w-2/5 md:w-1/2"></div>
+        <div className="w-5/6 lg:max-w-lg lg:w-2/5 md:w-1/2">
+          <img
+            className="object-cover object-center border border-gray-200 rounded-xl"
+            alt="hero"
+            src="/images/listen.gif"
+          />
+        </div>
       </div>
 
       <div className="container flex flex-col flex-col-reverse items-center px-5 pt-24 mx-auto mt-40 md:flex-row md:items-start">
@@ -163,7 +167,7 @@ const Usecases: React.FunctionComponent = () => {
           </p>
           <nav className="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1 space-y-2.5">
             <a className="text-sm">
-              <span className="inline-flex items-center justify-center w-4 h-4 mr-2 text-our-800 bg-our-300 rounded-full">
+              <span className="inline-flex items-center justify-center w-4 h-4 mr-2 rounded-full text-our-800 bg-our-300">
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -179,7 +183,7 @@ const Usecases: React.FunctionComponent = () => {
               OPTIMIZE YOUR WEBSITE ENGAGEMENT
             </a>
             <a className="text-sm">
-              <span className="inline-flex items-center justify-center w-4 h-4 mr-2 text-our-800 bg-our-300 rounded-full">
+              <span className="inline-flex items-center justify-center w-4 h-4 mr-2 rounded-full text-our-800 bg-our-300">
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -195,7 +199,7 @@ const Usecases: React.FunctionComponent = () => {
               INCREASE CONVERSIONS
             </a>
             <a className="text-sm">
-              <span className="inline-flex items-center justify-center w-4 h-4 mr-2 text-our-800 bg-our-300 rounded-full">
+              <span className="inline-flex items-center justify-center w-4 h-4 mr-2 rounded-full text-our-800 bg-our-300">
                 <svg
                   fill="none"
                   stroke="currentColor"
