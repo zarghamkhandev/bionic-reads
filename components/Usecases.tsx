@@ -160,13 +160,12 @@ const Usecases: React.FunctionComponent = () => {
             Use Smart Embed, a true no code solution.
           </h1>
           <p className="mb-8 leading-relaxed tracking-tighter">
-            You will need to add our script only once. Our no-code technology
-            enables you place voicys anywhere on your website without making any
-            further changes.
+            Add one line of code once. Now you can create as many voicys as you
+            want to and place them on your website without touching code again.
           </p>
 
           <nav className="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1 space-y-2.5">
-            <a className="text-sm">
+            <a className="text-sm uppercase">
               <span className="inline-flex items-center justify-center w-4 h-4 mr-2 rounded-full text-our-800 bg-our-300">
                 <svg
                   fill="none"
@@ -180,9 +179,9 @@ const Usecases: React.FunctionComponent = () => {
                   <path d="M20 6L9 17l-5-5" />
                 </svg>
               </span>
-              No-code approach
+              user friendly
             </a>
-            <a className="text-sm">
+            <a className="text-sm uppercase">
               <span className="inline-flex items-center justify-center w-4 h-4 mr-2 rounded-full text-our-800 bg-our-300">
                 <svg
                   fill="none"
@@ -196,9 +195,9 @@ const Usecases: React.FunctionComponent = () => {
                   <path d="M20 6L9 17l-5-5" />
                 </svg>
               </span>
-              Easy to integrate
+              quick and easy integration
             </a>
-            <a className="text-sm">
+            <a className="text-sm uppercase">
               <span className="inline-flex items-center justify-center w-4 h-4 mr-2 rounded-full text-our-800 bg-our-300">
                 <svg
                   fill="none"
@@ -212,7 +211,7 @@ const Usecases: React.FunctionComponent = () => {
                   <path d="M20 6L9 17l-5-5" />
                 </svg>
               </span>
-              Only one line of script
+              no code/no sweat technology
             </a>
             <a></a>
             <a></a>
