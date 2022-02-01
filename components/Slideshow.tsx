@@ -46,7 +46,10 @@ const SlideShow: React.FunctionComponent<SlideShowProps> = ({}) => {
         "Simple yet effective - catch your audience's attention with this cool animated voicy.",
       content: (
         <div className="flex justify-center w-100">
-          <voicy-meghan imageUrl="/images/memoji_1.gif"></voicy-meghan>
+          <voicy-meghan
+            imageUrl="/images/memoji_1.gif"
+            audioUrl="/audio/voicy_meghan.m4a"
+          ></voicy-meghan>
         </div>
       ),
     },
@@ -56,7 +59,10 @@ const SlideShow: React.FunctionComponent<SlideShowProps> = ({}) => {
         "This is a CTA voicy. Encourage people to take action using your voice!",
       content: (
         <div className="flex justify-center w-100">
-          <voicy-malik imageUrl="/images/memoji_1.gif"></voicy-malik>
+          <voicy-malik
+            imageUrl="/images/memoji_1.gif"
+            audioUrl="/audio/voicy_malik.m4a"
+          ></voicy-malik>
         </div>
       ),
     },
@@ -68,6 +74,7 @@ const SlideShow: React.FunctionComponent<SlideShowProps> = ({}) => {
         <div className="flex justify-center w-100">
           <voicy-cta
             imageUrl="/images/memoji_1.gif"
+            audioUrl="/audio/voicy_cta.m4a"
             style={{ borderWidth: "1px" }}
           ></voicy-cta>
         </div>
@@ -79,7 +86,10 @@ const SlideShow: React.FunctionComponent<SlideShowProps> = ({}) => {
         "The classic. Use this voicy to read out big texts, give extra information or introduce yourself.",
       content: (
         <div className="flex justify-center w-100">
-          <voicy-usman imageUrl="/images/memoji_1.gif"></voicy-usman>
+          <voicy-usman
+            imageUrl="/images/memoji_1.gif"
+            audioUrl="/audio/voicy_usman.m4a"
+          ></voicy-usman>
         </div>
       ),
     },
@@ -89,7 +99,10 @@ const SlideShow: React.FunctionComponent<SlideShowProps> = ({}) => {
         "The minimalists - put this voicy anywhere on your website to increase engagement.",
       content: (
         <div className="flex justify-center w-100">
-          <voicy-nicky imageUrl="/images/memoji_1.gif"></voicy-nicky>
+          <voicy-nicky
+            imageUrl="/images/memoji_1.gif"
+            audioUrl="/audio/voicy_nicky.m4a"
+          ></voicy-nicky>
         </div>
       ),
     },
