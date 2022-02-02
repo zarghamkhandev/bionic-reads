@@ -19,7 +19,7 @@ export default function Faqs() {
         </div>
 
         <div className="container rounded-3xl flex bg-our-300 flex-col items-center px-5 mx-auto mt-40 md:flex-row md:items-center">
-        <div className="flex flex-col items-center mb-16 text-center lg:flex-grow md:w-1/2 md:pr-6 md:items-start md:text-left md:mb-0">
+        <div className="flex flex-col pl-10 items-center mb-16 text-center lg:flex-grow md:w-1/2 md:pr-6 md:items-start md:text-left md:mb-0">
           <h1 className="mb-4 mt-20 text-xl font-semibold tracking-tighter text-our-800 title-font sm:text-4xl ">
             Use Listen voicys to collect customer feedback
           </h1>
@@ -81,7 +81,7 @@ export default function Faqs() {
             <a></a>
           </nav>
         </div>
-        <div className="w-5/6 lg:max-w-lg lg:w-2/5 md:w-1/2">
+        <div className="w-5/6 lg:max-w-lg lg:w-2/5 md:w-1/2  pr-10">
           <img
             className="object-cover object-center border border-gray-200 rounded-xl"
             alt="hero"
@@ -91,7 +91,7 @@ export default function Faqs() {
       </div>
 
       <div className="container rounded-3xl flex bg-our-300 flex-col items-center px-5 mx-auto mt-20 md:flex-row md:items-center">
-        <div className="flex flex-col items-center mb-16 text-center lg:flex-grow md:w-1/2 md:pr-6 md:items-start md:text-left md:mb-0">
+        <div className="flex flex-col pl-10 items-center mb-16 text-center lg:flex-grow md:w-1/2 md:pr-6 md:items-start md:text-left md:mb-0">
           <h1 className="mb-4 mt-20 text-xl font-semibold tracking-tighter text-our-800 title-font sm:text-4xl ">
             Use Listen voicys to collect customer feedback
           </h1>
@@ -155,7 +155,7 @@ export default function Faqs() {
         </div>
         <div className="w-5/6 lg:max-w-lg lg:w-2/5 md:w-1/2">
           <img
-            className="object-cover object-center border border-gray-200 rounded-xl"
+            className="object-cover object-center border border-gray-200 rounded-xl pr-10"
             alt="hero"
             src="/images/listen.gif"
           />

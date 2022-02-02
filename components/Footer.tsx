@@ -81,10 +81,6 @@ const Footer: React.FunctionComponent<FooterProps> = ({ children }) => {
                       </a>
                     </Link>
                   </li>
-<<<<<<< HEAD
-                
-=======
->>>>>>> 1897de3f87e938560e4b47559725dc7a70c97982
                 </ul>
               </div>
             </div>
