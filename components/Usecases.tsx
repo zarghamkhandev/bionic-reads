@@ -21,7 +21,7 @@ const Usecases: React.FunctionComponent = () => {
           </p>
 
           <nav className="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1 space-y-2.5">
-            <a className="text-sm">
+            <a className="text-sm tracking-tighter">
               <span className="inline-flex items-center justify-center w-4 h-4 mr-2 rounded-full text-our-800 bg-our-300">
                 <svg
                   fill="none"
@@ -37,7 +37,7 @@ const Usecases: React.FunctionComponent = () => {
               </span>
               CREATES TRUST
             </a>
-            <a className="text-sm">
+            <a className="text-sm tracking-tighter">
               <span className="inline-flex items-center justify-center w-4 h-4 mr-2 rounded-full text-our-800 bg-our-300">
                 <svg
                   fill="none"
@@ -53,7 +53,7 @@ const Usecases: React.FunctionComponent = () => {
               </span>
               INCREASES CONVERSIONS
             </a>
-            <a className="text-sm">
+            <a className="text-sm tracking-tighter">
               <span className="inline-flex items-center justify-center w-4 h-4 mr-2 rounded-full text-our-800 bg-our-300">
                 <svg
                   fill="none"
@@ -86,7 +86,7 @@ const Usecases: React.FunctionComponent = () => {
             typing it down anymore.
           </p>
           <nav className="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1 space-y-2.5">
-            <a className="text-sm">
+            <a className="text-sm tracking-tighter">
               <span className="inline-flex items-center justify-center w-4 h-4 mr-2 rounded-full text-our-800 bg-our-300">
                 <svg
                   fill="none"
@@ -102,7 +102,7 @@ const Usecases: React.FunctionComponent = () => {
               </span>
               VALIDATE & IMPROVE YOUR PRODUCT
             </a>
-            <a className="text-sm">
+            <a className="text-sm tracking-tighter">
               <span className="inline-flex items-center justify-center w-4 h-4 mr-2 rounded-full text-our-800 bg-our-300">
                 <svg
                   fill="none"
@@ -118,7 +118,7 @@ const Usecases: React.FunctionComponent = () => {
               </span>
               RECEIVE DIRECT FEEDBACK
             </a>
-            <a className="text-sm">
+            <a className="text-sm tracking-tighter">
               <span className="inline-flex items-center justify-center w-4 h-4 mr-2 rounded-full text-our-800 bg-our-300">
                 <svg
                   fill="none"
@@ -231,7 +231,7 @@ const Usecases: React.FunctionComponent = () => {
             them.
           </p>
           <nav className="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1 space-y-2.5">
-            <a className="text-sm">
+            <a className="text-sm tracking-tighter">
               <span className="inline-flex items-center justify-center w-4 h-4 mr-2 rounded-full text-our-800 bg-our-300">
                 <svg
                   fill="none"
@@ -247,7 +247,7 @@ const Usecases: React.FunctionComponent = () => {
               </span>
               OPTIMIZE YOUR WEBSITE ENGAGEMENT
             </a>
-            <a className="text-sm">
+            <a className="text-sm tracking-tighter">
               <span className="inline-flex items-center justify-center w-4 h-4 mr-2 rounded-full text-our-800 bg-our-300">
                 <svg
                   fill="none"
@@ -263,7 +263,7 @@ const Usecases: React.FunctionComponent = () => {
               </span>
               INCREASE CONVERSIONS
             </a>
-            <a className="text-sm">
+            <a className="text-sm tracking-tighter">
               <span className="inline-flex items-center justify-center w-4 h-4 mr-2 rounded-full text-our-800 bg-our-300">
                 <svg
                   fill="none"

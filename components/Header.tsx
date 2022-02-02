@@ -58,6 +58,12 @@ const Header: React.FunctionComponent<HeaderProps> = ({ children }) => {
             </a>
           </Link>
 
+          <Link href="/listen">
+            <a className="px-4 py-2 mt-2 text-sm text-gray-500 md:mt-0 hover:text-[#704ecd] focus:outline-none focus:shadow-outline">
+              Voicl Listen
+            </a>
+          </Link>
+
           <Link href="/pricing">
             <a className="px-4 py-2 mt-2 text-sm text-gray-500 md:mt-0 hover:text-[#704ecd] focus:outline-none focus:shadow-outline">
               Pricing

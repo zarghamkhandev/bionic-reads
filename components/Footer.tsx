@@ -80,30 +80,7 @@ const Footer: React.FunctionComponent<FooterProps> = ({ children }) => {
                       </a>
                     </Link>
                   </li>
-                  <li>
-                    <a
-                      href="#"
-                      className="text-sm font-normal text-gray-500 hover:text-gray-900"
-                    >
-                      How to increase your website engagement
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="#"
-                      className="text-sm font-normal text-gray-500 hover:text-gray-900"
-                    >
-                      How to add voicl to your website
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="#"
-                      className="text-sm font-normal text-gray-500 hover:text-gray-900"
-                    >
-                      Why voice is simply better
-                    </a>
-                  </li>
+                
                 </ul>
               </div>
             </div>

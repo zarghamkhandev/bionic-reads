@@ -19,10 +19,10 @@ export default function How() {
     <Layout>
       <section className="mt-20 text-gray-600">
         <div className="flex flex-col w-full mt-20 text-center">
-          <h1 className="box-border m-0 text-3xl font-semibold leading-tight tracking-tight text-black border-solid sm:text-4xl md:text-5xl">
+          <h1 className="box-border m-0 text-3xl font-semibold leading-tight tracking-tighter text-black border-solid sm:text-4xl md:text-5xl">
             Here’s how it works
           </h1>
-          <p className="box-border mt-2 text-xl text-gray-900 border-solid sm:text-2xl">
+          <p className="box-border mt-2 text-xl font-medium text-gray-900 tracking-tighter border-solid sm:text-2xl">
             Our no code solution enables everyone to place voice widgets on
             their website
           </p>
