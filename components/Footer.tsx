@@ -13,7 +13,7 @@ const Footer: React.FunctionComponent<FooterProps> = ({ children }) => {
           <div className="space-y-8 xl:col-span-1">
             <a
               href="/"
-              className="text-lg font-bold ion-500 ease-in-out transform text-our-700 tracking-relaxed lg:pr-8"
+              className="text-lg font-bold ease-in-out transform ion-500 text-our-700 tracking-relaxed lg:pr-8"
             >
               Voicl
             </a>
@@ -76,11 +76,15 @@ const Footer: React.FunctionComponent<FooterProps> = ({ children }) => {
                   <li>
                     <Link href="/blog/16">
                       <a className="text-sm font-normal text-gray-500 hover:text-gray-900">
-                        Why an interactive website will increase engagement and conversions
+                        Why an interactive website will increase engagement and
+                        conversions
                       </a>
                     </Link>
                   </li>
+<<<<<<< HEAD
                 
+=======
+>>>>>>> 1897de3f87e938560e4b47559725dc7a70c97982
                 </ul>
               </div>
             </div>
