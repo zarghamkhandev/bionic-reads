@@ -11,13 +11,19 @@ const Testimonials: React.FunctionComponent = () => {
 
       <div className="px-5 pt-16 ">
         <div className="flex flex-wrap justify-center -m-4">
-          <div className="p-4 mb-6 lg:w-1/3 lg:mb-0">
+          <div
+            className="relative flex flex-col h-full p-4 mx-6 mb-16 bg-our-100 w-96 lg:mb-0"
+            style={{
+              borderRadius: "600000px",
+              borderTopRightRadius: "20px",
+            }}
+          >
+            <img
+              alt="testimonial"
+              className="inline-block object-cover object-center w-20 h-20 mx-auto mb-8 bg-gray-100 border-2 rounded-full border-our-600 -mt-14 "
+              src="/77.svg"
+            />
             <div className="h-full text-center">
-              <img
-                alt="testimonial"
-                className="inline-block object-cover object-center w-20 h-20 mb-8 bg-gray-100 border-2 border-gray-200 rounded-full"
-                src="/77.svg"
-              />
               <p className="leading-relaxed">
                 Voicl is a gamechanger for us by helping explain our product to
                 our customers - genius.
@@ -29,13 +35,19 @@ const Testimonials: React.FunctionComponent = () => {
               <p className="text-gray-500">CEO vobb.io</p>
             </div>
           </div>
-          <div className="p-4 mb-6 lg:w-1/3 lg:mb-0">
+          <div
+            className="relative flex flex-col h-full p-4 mx-6 mb-6 bg-our-100 w-96 lg:mb-0"
+            style={{
+              borderRadius: "600000px",
+              borderTopRightRadius: "20px",
+            }}
+          >
+            <img
+              alt="testimonial"
+              className="inline-block object-cover object-center w-20 h-20 mx-auto mb-8 bg-gray-100 border-2 rounded-full border-our-600 -mt-14 "
+              src="/78.svg"
+            />
             <div className="h-full text-center">
-              <img
-                alt="testimonial"
-                className="inline-block object-cover object-center w-20 h-20 mb-8 bg-gray-100 border-2 border-gray-200 rounded-full"
-                src="/78.svg"
-              />
               <p className="leading-relaxed">
                 We use Voicl to encourage clients to book a demo with us. And it
                 works!! Really cool tool.
