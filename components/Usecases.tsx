@@ -157,7 +157,7 @@ const Usecases: React.FunctionComponent = () => {
         </div>
         <div className="flex flex-col items-center mb-16 text-center lg:flex-grow md:w-1/2 md:pl-6 md:items-start md:text-left md:mb-0">
           <h1 className="mb-4 text-xl font-semibold tracking-tighter text-gray-900 title-font sm:text-4xl ">
-            Use Smart Embed, a true no code solution.
+            Use Smart Embed, a true no code solution
           </h1>
           <p className="mb-8 leading-relaxed tracking-tighter">
             Add one line of code once. Now you can create as many voicys as you

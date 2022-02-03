@@ -17,7 +17,7 @@ export default function Pricing() {
     "1 min recording length",
     "Simple analytics",
     "12 voicys/month",
-    "Voicl Pure audio enhancement",
+    ,
   ];
 
   const proFeatures = [
@@ -26,7 +26,7 @@ export default function Pricing() {
     "3 min recording length",
     "In depth analytics",
     "30 voicys/month",
-    "Voicl Pure audio enhancement",
+    ,
   ];
   return (
     <Layout>

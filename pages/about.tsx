@@ -14,13 +14,13 @@ export default function How() {
           <p className="font-medium tracking-wide uppercase text-our-700">
             ABOUT US
           </p>
-          <h2 className="relative max-w-lg mt-5 mb-10 text-4xl font-semibold lg:text-5xl">
+          <h2 className="relative tracking-tighter max-w-lg mt-5 mb-10 text-4xl font-semibold lg:text-5xl">
             Voicl is a tool which lets you place voice notes onto your website.
           </h2>
 
-          <p className="relative mt-5 mb-10 text-xl font-semibold leading-tight lg:text-2xl">
+          <p className="relative tracking-tighter mt-5 mb-10 text-xl font-medium leading-tight lg:text-2xl">
             We're a fully remote self funded startup making website experiences
-            much better with voice.
+            better with voice.
           </p>
 
           <div className="grid w-full grid-cols-2 gap-10 sm:grid-cols-3 lg:grid-cols-4">

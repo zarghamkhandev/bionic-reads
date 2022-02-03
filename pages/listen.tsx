@@ -21,12 +21,10 @@ export default function Faqs() {
         <div className="container rounded-3xl flex bg-our-300 flex-col items-center px-5 mx-auto mt-40 md:flex-row md:items-center">
         <div className="flex flex-col pl-10 items-center mb-16 text-center lg:flex-grow md:w-1/2 md:pr-6 md:items-start md:text-left md:mb-0">
           <h1 className="mb-4 mt-20 text-xl font-semibold tracking-tighter text-our-800 title-font sm:text-4xl ">
-            Use Listen voicys to collect customer feedback
+            Improve your business
           </h1>
           <p className="mb-8 text-our-800 leading-relaxed tracking-tighter">
-            Ask your audience for their opinion directly. Plus, people will
-            leave feedback more frequently because it doesn't cost them time
-            typing it down anymore.
+            The only opinion that matters is that of the people who use your product or service. Ask them for their feedback and find out what their pain points are.
           </p>
           <nav className="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1 space-y-2.5">
             <a className="text-sm tracking-tighter text-our-800">
@@ -43,7 +41,7 @@ export default function Faqs() {
                   <path d="M20 6L9 17l-5-5" />
                 </svg>
               </span>
-              VALIDATE & IMPROVE YOUR PRODUCT
+              FIND OUT YOUR CUSTOMERS PAIN POINTS
             </a>
             <a className="text-sm tracking-tighter text-our-800">
               <span className="inline-flex items-center justify-center w-4 h-4 mr-2 rounded-full text-our-800 bg-white">
@@ -59,7 +57,7 @@ export default function Faqs() {
                   <path d="M20 6L9 17l-5-5" />
                 </svg>
               </span>
-              RECEIVE DIRECT FEEDBACK
+              GET INSTANT FEEDBACK ON NEW FEATURES
             </a>
             <a className="text-sm tracking-tighter text-our-800">
               <span className="inline-flex mb-20 items-center justify-center w-4 h-4 mr-2 rounded-full text-our-800 bg-white">
@@ -75,7 +73,7 @@ export default function Faqs() {
                   <path d="M20 6L9 17l-5-5" />
                 </svg>
               </span>
-              INVOLVE YOUR AUDIENCE
+              ASK FOR YOUR AUDIENCE'S OPINION AND DELIVER THE BEST RESULTS POSSIBLE
             </a>
             <a></a>
             <a></a>
@@ -93,12 +91,10 @@ export default function Faqs() {
       <div className="container rounded-3xl flex bg-our-300 flex-col items-center px-5 mx-auto mt-20 md:flex-row md:items-center">
         <div className="flex flex-col pl-10 items-center mb-16 text-center lg:flex-grow md:w-1/2 md:pr-6 md:items-start md:text-left md:mb-0">
           <h1 className="mb-4 mt-20 text-xl font-semibold tracking-tighter text-our-800 title-font sm:text-4xl ">
-            Use Listen voicys to collect customer feedback
+            Live feedback for content creators
           </h1>
           <p className="mb-8 text-our-800 leading-relaxed tracking-tighter">
-            Ask your audience for their opinion directly. Plus, people will
-            leave feedback more frequently because it doesn't cost them time
-            typing it down anymore.
+            Whether you're a podcast host, video creator or influencer - your content is your capital. Make sure you deliver what your audience wants to see by directly asking them for their opinion on your content.
           </p>
           <nav className="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1 space-y-2.5">
             <a className="text-sm tracking-tighter text-our-800">
@@ -115,7 +111,7 @@ export default function Faqs() {
                   <path d="M20 6L9 17l-5-5" />
                 </svg>
               </span>
-              VALIDATE & IMPROVE YOUR PRODUCT
+              BUILD TRUST WITH YOUR AUDIENCE
             </a>
             <a className="text-sm tracking-tighter text-our-800">
               <span className="inline-flex items-center justify-center w-4 h-4 mr-2 rounded-full text-our-800 bg-white">
@@ -131,7 +127,7 @@ export default function Faqs() {
                   <path d="M20 6L9 17l-5-5" />
                 </svg>
               </span>
-              RECEIVE DIRECT FEEDBACK
+              IMPROVE YOUR CONTENT TOWARDS MAXIMUM ENGAGEMENT
             </a>
             <a className="text-sm tracking-tighter text-our-800">
               <span className="inline-flex mb-20 items-center justify-center w-4 h-4 mr-2 rounded-full text-our-800 bg-white">
@@ -147,7 +143,7 @@ export default function Faqs() {
                   <path d="M20 6L9 17l-5-5" />
                 </svg>
               </span>
-              INVOLVE YOUR AUDIENCE
+              GET INSIGHT ABOUT YOUR AUDIENCE'S TASTE, LIKES AND DISLIKES FOR BETTER DELIVERY
             </a>
             <a></a>
             <a></a>

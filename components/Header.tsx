@@ -84,7 +84,7 @@ const Header: React.FunctionComponent<HeaderProps> = ({ children }) => {
           <div className="inline-flex items-center gap-2 list-none lg:ml-auto">
             <a
               href="https://app.voicl.com/login"
-              className=" items-center block px-10 py-2.5 text-base font-normal text-center bg-gradient-to-r from-[#a994e8] to-[#886adb] text-white font-bold transition duration-500 ease-in-out transform rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500
+              className=" items-center block px-10 py-2.5 tracking-tighter text-base font-normal text-center bg-gradient-to-r from-[#a994e8] to-[#886adb] text-white font-bold transition duration-500 ease-in-out transform rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500
           "
             >
               Start for free

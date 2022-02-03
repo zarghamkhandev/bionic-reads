@@ -13,24 +13,24 @@ const Footer: React.FunctionComponent<FooterProps> = ({ children }) => {
           <div className="space-y-8 xl:col-span-1">
             <a
               href="/"
-              className="text-lg font-bold ease-in-out transform ion-500 text-our-700 tracking-relaxed lg:pr-8"
+              className="text-lg font-bold ease-in-out transform ion-500 text-our-700 tracking-tighter lg:pr-8"
             >
               Voicl
             </a>
-            <p className="w-1/2 mt-2 text-sm text-gray-500">
+            <p className="w-1/2 tracking-tighter mt-2 text-sm text-gray-500">
               Easily embed voice widgets on your site
             </p>
           </div>
           <div className="grid grid-cols-2 gap-8 mt-12 xl:mt-0 xl:col-span-2">
             <div className="md:grid md:grid-cols-2 md:gap-8">
               <div>
-                <h3 className="text-xs font-semibold tracking-wider uppercase text-our-700 ">
+                <h3 className="text-xs font-semibold tracking-tighter uppercase text-our-700 ">
                   About us
                 </h3>
                 <ul role="list" className="mt-4 space-y-4">
                   <li>
                     <Link href="/about">
-                      <a className="text-sm font-normal text-gray-500 hover:text-gray-900">
+                      <a className="text-sm tracking-tighter font-normal text-gray-500 hover:text-gray-900">
                         About us
                       </a>
                     </Link>
@@ -38,7 +38,7 @@ const Footer: React.FunctionComponent<FooterProps> = ({ children }) => {
                   <li>
                     <a
                       href="https://gelatinous-canoe-27d.notion.site/Terms-Conditions-d419fceee13348009392f080d2eea361"
-                      className="text-sm font-normal text-gray-500 hover:text-gray-900"
+                      className="text-sm tracking-tighter font-normal text-gray-500 hover:text-gray-900"
                     >
                       Terms & Conditions
                     </a>
@@ -46,7 +46,7 @@ const Footer: React.FunctionComponent<FooterProps> = ({ children }) => {
                   <li>
                     <a
                       href="https://gelatinous-canoe-27d.notion.site/Privacy-Policy-2517212599ea4ad582e7b3bf4ec12477"
-                      className="text-sm font-normal text-gray-500 hover:text-gray-900"
+                      className="text-sm font-normal tracking-tighter text-gray-500 hover:text-gray-900"
                     >
                       Privacy Policy
                     </a>
@@ -54,7 +54,7 @@ const Footer: React.FunctionComponent<FooterProps> = ({ children }) => {
                   <li>
                     <a
                       href="https://gelatinous-canoe-27d.notion.site/Impressum-73e5c780032f4a22908fba43e157b64c"
-                      className="text-sm font-normal text-gray-500 hover:text-gray-900"
+                      className="text-sm font-normal tracking-tighter text-gray-500 hover:text-gray-900"
                     >
                       Imprint
                     </a>
@@ -62,20 +62,20 @@ const Footer: React.FunctionComponent<FooterProps> = ({ children }) => {
                 </ul>
               </div>
               <div className="mt-12 md:mt-0">
-                <h3 className="text-xs font-semibold tracking-wider uppercase text-our-700 ">
+                <h3 className="text-xs font-semibold tracking-tighter uppercase text-our-700 ">
                   Blog
                 </h3>
                 <ul role="list" className="mt-4 space-y-4">
                   <li>
                     <Link href="/blog/7">
-                      <a className="text-sm font-normal text-gray-500 hover:text-gray-900">
+                      <a className="text-sm font-normal tracking-tighter text-gray-500 hover:text-gray-900">
                         7 ways to increase your website traffic
                       </a>
                     </Link>
                   </li>
                   <li>
                     <Link href="/blog/16">
-                      <a className="text-sm font-normal text-gray-500 hover:text-gray-900">
+                      <a className="text-sm font-normal tracking-tighter text-gray-500 hover:text-gray-900">
                         Why an interactive website will increase engagement and
                         conversions
                       </a>
@@ -87,10 +87,10 @@ const Footer: React.FunctionComponent<FooterProps> = ({ children }) => {
             <div className="hidden lg:justify-end md:grid md:grid-cols-1">
               <div className="hidden w-full mt-12 md:mt-0">
                 <div className="mt-8 lg:justify-end xl:mt-0">
-                  <h3 className="text-xs font-semibold tracking-wider text-blue-600 uppercase ">
+                  <h3 className="text-xs font-semibold tracking-tighter text-blue-600 uppercase ">
                     Subscribe to our newsletter
                   </h3>
-                  <p className="mt-4 text-sm text-gray-500 lg:ml-auto">
+                  <p className="mt-4 text-sm tracking-tighter text-gray-500 lg:ml-auto">
                     Don't miss out on exciting product updates and coupons.
                   </p>
                   <div className="inline-flex items-center gap-2 list-none lg:ml-auto">
@@ -131,6 +131,8 @@ const Footer: React.FunctionComponent<FooterProps> = ({ children }) => {
           </div>
         </div>
       </div>
+
+      
     </footer>
   );
 };
