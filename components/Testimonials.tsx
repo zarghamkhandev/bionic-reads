@@ -24,15 +24,15 @@ const Testimonials: React.FunctionComponent = () => {
               src="/77.svg"
             />
             <div className="h-full text-center">
-              <p className="text-xs leading-relaxed sm:text-base">
+              <p className="text-xs text-[#7C6CA3] tracking-tighter leading-relaxed sm:text-base">
                 Voicl is a gamechanger for us by helping explain our product to
                 our customers - genius.
               </p>
-              <span className="inline-block w-10 h-1 mt-6 mb-4 bg-indigo-500 rounded" />
-              <h2 className="text-xs font-medium tracking-wider text-gray-900 sm:text-sm title-font">
+              <span className="inline-block w-10 h-1 mt-6 mb-4 bg-[#7C6CA3] rounded" />
+              <h2 className="text-xs font-medium tracking-wider text-[#7C6CA3] sm:text-sm title-font">
                 Victor Ehinmowo
               </h2>
-              <p className="text-xs text-gray-500 sm:text-sm">CEO vobb.io</p>
+              <p className="text-xs tracking-tighter text-[#7C6CA3] sm:text-sm">CEO vobb.io</p>
             </div>
           </div>
           <div
@@ -48,15 +48,15 @@ const Testimonials: React.FunctionComponent = () => {
               src="/78.svg"
             />
             <div className="h-full text-center">
-              <p className="text-xs leading-relaxed sm:text-base">
+              <p className="text-xs tracking-tighter text-[#7C6CA3] leading-relaxed sm:text-base">
                 We use Voicl to encourage clients to book a demo with us. And it
                 works!! Really cool tool.
               </p>
-              <span className="inline-block w-10 h-1 mt-6 mb-4 bg-indigo-500 rounded" />
-              <h2 className="text-xs font-medium tracking-wider text-gray-900 sm:text-sm title-font">
+              <span className="inline-block w-10 h-1 mt-6 mb-4 bg-[#7C6CA3] rounded" />
+              <h2 className="text-xs font-medium tracking-wider text-[#7C6CA3] sm:text-sm title-font">
                 Sarah Moran
               </h2>
-              <p className="text-xs text-gray-500 sm:text-sm">pynhq.com</p>
+              <p className="text-xs text-[#7C6CA3] sm:text-sm">pynhq.com</p>
             </div>
           </div>
         </div>
