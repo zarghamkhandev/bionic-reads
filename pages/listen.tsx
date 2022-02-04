@@ -146,7 +146,7 @@ export default function Faqs() {
                   <path d="M20 6L9 17l-5-5" />
                 </svg>
               </span>
-              GET INSIGHT ABOUT YOUR AUDIENCE'S TASTE, LIKES AND DISLIKES FOR
+              GET INSIGHTS ABOUT YOUR AUDIENCE'S TASTE, LIKES AND DISLIKES FOR
               BETTER DELIVERY
             </a>
             <a></a>
@@ -163,7 +163,7 @@ export default function Faqs() {
           Meet our widgets
         </h1>
       </div>
-      <div className="flex justify-center w-full mt-20">
+      <div className="flex justify-center tracking-tighter w-full mt-20">
         <SlideShow type="listen" />
       </div>
       <div className="mx-4 mt-40 bg-[#F6F3FB] rounded-3xl text-our-800">
