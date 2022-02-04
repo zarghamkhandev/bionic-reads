@@ -219,7 +219,7 @@ const Usecases: React.FunctionComponent = () => {
         </div>
       </div>
 
-      <div className="container flex flex-col flex-col-reverse items-center px-5 pt-24 mx-auto mt-40 md:flex-row md:items-start">
+      <div className="container flex flex-col items-center px-5 pt-24 mx-auto mt-40 md:flex-row md:items-start">
         <div className="flex flex-col items-center mb-16 text-center lg:flex-grow md:w-1/2 md:items-start md:text-left md:mb-0">
           <h1 className="mb-4 text-xl font-semibold tracking-tighter text-gray-900 title-font sm:text-4xl ">
             Track customer interaction in real-time
