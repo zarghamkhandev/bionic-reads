@@ -18,7 +18,7 @@ const Footer: React.FunctionComponent<FooterProps> = ({ children }) => {
               Voicl
             </a>
             <p className="w-1/2 tracking-tighter mt-2 text-sm text-gray-500">
-              Easily embed voice widgets on your site
+              Easily embed voice widgets on your website
             </p>
           </div>
           <div className="grid grid-cols-2 gap-8 mt-12 xl:mt-0 xl:col-span-2">

@@ -2,9 +2,9 @@ import * as React from "react";
 
 const Testimonials: React.FunctionComponent = () => {
   return (
-    <section className="text-gray-600 ">
+    <section className="text-gray-600">
       <div className="flex flex-col w-full mt-32 text-center">
-        <h1 className="mb-4 text-3xl font-bold text-gray-900 sm:text-4xl title-font">
+        <h1 className="mb-12 text-3xl font-bold text-gray-900 sm:text-4xl title-font">
           Hear what our clients have to say!
         </h1>
       </div>
@@ -12,7 +12,7 @@ const Testimonials: React.FunctionComponent = () => {
       <div className="px-5 pt-16 ">
         <div className="flex flex-wrap justify-center -m-4">
           <div
-            className="relative flex flex-col h-full p-4 mx-6 mb-16 bg-our-100 w-96 lg:mb-0"
+            className="relative flex flex-col h-full p-4 mx-6 mb-16 bg-our-100 w-96 sm:w.0.5 lg:mb-0"
             style={{
               borderRadius: "600000px",
               borderTopRightRadius: "20px",
