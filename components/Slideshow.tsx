@@ -3,7 +3,9 @@ import { wrap } from "popmotion";
 import React, { useEffect, useState } from "react";
 import { BsChevronLeft, BsChevronRight } from "react-icons/bs";
 
-interface SlideShowProps {}
+interface SlideShowProps {
+  type: "all" | "listen";
+}
 const variants: Variants = {
   enter: (direction: number) => {
     return {
@@ -25,7 +27,7 @@ const variants: Variants = {
     };
   },
 };
-const SlideShow: React.FunctionComponent<SlideShowProps> = ({}) => {
+const SlideShow: React.FunctionComponent<SlideShowProps> = ({ type }) => {
   const widgets = [
     {
       type: "Listen Voicy",
@@ -40,73 +42,79 @@ const SlideShow: React.FunctionComponent<SlideShowProps> = ({}) => {
         </div>
       ),
     },
-    {
-      type: "Speak Voicy",
-      description:
-        "Simple yet effective - catch your audience's attention with this cool animated voicy.",
-      content: (
-        <div className="flex justify-center w-100">
-          <voicy-meghan
-            imageUrl="/images/memoji_1.gif"
-            audioUrl="/audio/voicy_meghan.m4a"
-          ></voicy-meghan>
-        </div>
-      ),
-    },
-    {
-      type: "Speak Voicy",
-      description:
-        "This is a CTA voicy. Encourage people to take action using your voice!",
-      content: (
-        <div className="flex justify-center w-100">
-          <voicy-malik
-            imageUrl="/images/memoji_1.gif"
-            audioUrl="/audio/voicy_malik.m4a"
-          ></voicy-malik>
-        </div>
-      ),
-    },
-    {
-      type: "Speak Voicy",
-      description:
-        "Another cool animated voicy - people won't be able to resist listening to it.",
-      content: (
-        <div className="flex justify-center w-100">
-          <voicy-cta
-            imageUrl="/images/memoji_1.gif"
-            audioUrl="/audio/voicy_cta.m4a"
-            style={{ borderWidth: "1px" }}
-          ></voicy-cta>
-        </div>
-      ),
-    },
-    {
-      type: "Speak Voicy",
-      description:
-        "The classic. Use this voicy to read out big texts, give extra information or introduce yourself.",
-      content: (
-        <div className="flex justify-center w-100">
-          <voicy-usman
-            imageUrl="/images/memoji_1.gif"
-            audioUrl="/audio/voicy_usman.m4a"
-          ></voicy-usman>
-        </div>
-      ),
-    },
-    {
-      type: "Speak Voicy",
-      description:
-        "The minimalists - put this voicy anywhere on your website to increase engagement.",
-      content: (
-        <div className="flex justify-center w-100">
-          <voicy-nicky
-            imageUrl="/images/memoji_1.gif"
-            audioUrl="/audio/voicy_nicky.m4a"
-          ></voicy-nicky>
-        </div>
-      ),
-    },
   ];
+
+  if (type === "all") {
+    const speak = [
+      {
+        type: "Speak Voicy",
+        description:
+          "Simple yet effective - catch your audience's attention with this cool animated voicy.",
+        content: (
+          <div className="flex justify-center w-100">
+            <voicy-meghan
+              imageUrl="/images/memoji_1.gif"
+              audioUrl="/audio/voicy_meghan.m4a"
+            ></voicy-meghan>
+          </div>
+        ),
+      },
+      {
+        type: "Speak Voicy",
+        description:
+          "This is a CTA voicy. Encourage people to take action using your voice!",
+        content: (
+          <div className="flex justify-center w-100">
+            <voicy-malik
+              imageUrl="/images/memoji_1.gif"
+              audioUrl="/audio/voicy_malik.m4a"
+            ></voicy-malik>
+          </div>
+        ),
+      },
+      {
+        type: "Speak Voicy",
+        description:
+          "Another cool animated voicy - people won't be able to resist listening to it.",
+        content: (
+          <div className="flex justify-center w-100">
+            <voicy-cta
+              imageUrl="/images/memoji_1.gif"
+              audioUrl="/audio/voicy_cta.m4a"
+              style={{ borderWidth: "1px" }}
+            ></voicy-cta>
+          </div>
+        ),
+      },
+      {
+        type: "Speak Voicy",
+        description:
+          "The classic. Use this voicy to read out big texts, give extra information or introduce yourself.",
+        content: (
+          <div className="flex justify-center w-100">
+            <voicy-usman
+              imageUrl="/images/memoji_1.gif"
+              audioUrl="/audio/voicy_usman.m4a"
+            ></voicy-usman>
+          </div>
+        ),
+      },
+      {
+        type: "Speak Voicy",
+        description:
+          "The minimalists - put this voicy anywhere on your website to increase engagement.",
+        content: (
+          <div className="flex justify-center w-100">
+            <voicy-nicky
+              imageUrl="/images/memoji_1.gif"
+              audioUrl="/audio/voicy_nicky.m4a"
+            ></voicy-nicky>
+          </div>
+        ),
+      },
+    ];
+    widgets.push(...speak);
+  }
 
   const [[page, direction], setPage] = useState([0, 0]);
 

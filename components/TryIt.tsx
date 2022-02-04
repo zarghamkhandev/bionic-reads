@@ -15,7 +15,7 @@ const TryIt: React.FunctionComponent = () => {
         </h1>
       </div>
       <div className="flex justify-center w-full mt-20">
-        <SlideShow />
+        <SlideShow type="all" />
       </div>
     </section>
   );

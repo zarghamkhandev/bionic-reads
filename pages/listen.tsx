@@ -2,6 +2,7 @@ import Layout from "../components/Layout";
 import Typist from "react-typist";
 import ListenSVG from "../components/ListenSVG";
 import ListenSVG2 from "../components/ListenSVG2";
+import SlideShow from "../components/Slideshow";
 
 export default function Faqs() {
   return (
@@ -162,7 +163,9 @@ export default function Faqs() {
           Meet our widgets
         </h1>
       </div>
-
+      <div className="flex justify-center w-full mt-20">
+        <SlideShow type="listen" />
+      </div>
       <div className="mx-4 mt-40 bg-[#F6F3FB] rounded-3xl text-our-800">
         <div className="flex flex-col w-full px-4 py-12 mx-auto rounded-3xl sm:px-6 lg:py-16 lg:px-16">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
