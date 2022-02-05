@@ -22,7 +22,7 @@ export default function How() {
           <h1 className="box-border m-0 text-3xl font-semibold leading-tight tracking-tighter text-black border-solid sm:text-4xl md:text-5xl">
             Here’s how it works
           </h1>
-          <p className="box-border mt-2 text-xl font-medium text-gray-900 tracking-tighter border-solid sm:text-2xl">
+          <p className="box-border mt-2 text-xl font-medium tracking-tighter text-gray-900 border-solid sm:text-2xl">
             Our no code solution enables everyone to place voice widgets on
             their website
           </p>
@@ -52,7 +52,7 @@ export default function How() {
                     STEP 1
                   </h2>
                   <p className="leading-relaxed">
-                    Sign up for free on <a href="voicl.com/signup" class="no-underline hover:underline ...">voicl.com/signup</a> and provide your
+                    Sign up for free von voicl.com/sign up and provide your
                     website url.
                   </p>
                 </div>
