@@ -52,7 +52,7 @@ export default function How() {
                     STEP 1
                   </h2>
                   <p className="leading-relaxed">
-                    Sign up for free von voicl.com/sign up and provide your
+                    Sign up for free on <a href="voicl.com/signup" class="no-underline hover:underline ...">voicl.com/signup</a> and provide your
                     website url.
                   </p>
                 </div>
