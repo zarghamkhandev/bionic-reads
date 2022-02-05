@@ -28,21 +28,7 @@ const variants: Variants = {
   },
 };
 const SlideShow: React.FunctionComponent<SlideShowProps> = ({ type }) => {
-  const widgets = [
-    {
-      type: "Listen Voicy",
-      description:
-        "Our most popular voicy, used to collect customer feedback via voice. Fully customizable.",
-      content: (
-        <div className="flex justify-center w-100">
-          <voicy-momina
-            imageUrl="/images/memoji_1.gif"
-            class="voicy-momina"
-          ></voicy-momina>
-        </div>
-      ),
-    },
-  ];
+  const widgets = [];
 
   if (type === "all") {
     const speak = [
@@ -114,6 +100,21 @@ const SlideShow: React.FunctionComponent<SlideShowProps> = ({ type }) => {
       },
     ];
     widgets.push(...speak);
+    const listen = {
+      type: "Listen Voicy",
+      description:
+        "Our most popular voicy, used to collect customer feedback via voice. Fully customizable.",
+      content: (
+        <div className="flex justify-center w-100">
+          <voicy-momina
+            imageUrl="/images/memoji_1.gif"
+            class="voicy-momina"
+          ></voicy-momina>
+        </div>
+      ),
+    };
+
+    widgets.push(listen);
   }
 
   const [[page, direction], setPage] = useState([0, 0]);
