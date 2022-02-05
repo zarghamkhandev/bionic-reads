@@ -153,9 +153,9 @@ const SlideShow: React.FunctionComponent<SlideShowProps> = ({ type }) => {
             animate="center"
             exit="exit"
           >
-            <div className="mx-auto w-100">{widgets[dataIndex].content}</div>
+            <div className="mx-auto w-100">{widgets[dataIndex]?.content}</div>
             <div className="flex flex-col items-center justify-center w-full mt-4">
-              <p className="text-sm">{widgets[dataIndex].description}</p>
+              <p className="text-sm">{widgets[dataIndex]?.description}</p>
             </div>
           </motion.div>
         </AnimatePresence>
