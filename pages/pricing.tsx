@@ -9,7 +9,7 @@ export default function Pricing() {
     yearly: { starter: 144, pro: 278 },
   };
 
-  const freeFeatures = ["Limited customization", "500 views/month", "30sec recording length", "No analytics", "3 voicys/month"
+  const freeFeatures = ["Limited customization", "500 views (after that a watermark will be added)", "30sec recording length", "No analytics", "3 voicys/month"
 ];
   const starterFeatures = [
     "Unlimited customization",
