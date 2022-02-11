@@ -66,6 +66,14 @@ const Footer: React.FunctionComponent<FooterProps> = ({ children }) => {
                   Blog
                 </h3>
                 <ul role="list" className="mt-4 space-y-4">
+
+                <li>
+                    <Link href="/blog/41">
+                      <a className="text-sm font-normal tracking-tighter text-gray-500 hover:text-gray-900">
+                        Add audio to your blog
+                      </a>
+                    </Link>
+                  </li>
                   <li>
                     <Link href="/blog/7">
                       <a className="text-sm font-normal tracking-tighter text-gray-500 hover:text-gray-900">
