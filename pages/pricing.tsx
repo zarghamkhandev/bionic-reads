@@ -106,9 +106,9 @@ export default function Pricing() {
                   </li>
                 ))}
               </ul>
-              <button className="inline-flex justify-center w-full px-4 py-3 mt-8 text-sm leading-none text-center no-underline bg-transparent border rounded-md cursor-pointer text-our-600 border-our-600 hover:bg-our-700 hover:border-our-700 hover:text-white focus-within:bg-our-700 focus-within:border-our-700 focus-within:text-white sm:text-base md:text-lg">
-                Select Plan
-              </button>
+              <a href="https://app.voicl.com/" className="inline-flex justify-center w-full px-4 py-3 mt-8 text-sm leading-none text-center no-underline bg-transparent border rounded-md cursor-pointer text-our-600 border-our-600 hover:bg-our-700 hover:border-our-700 hover:text-white focus-within:bg-our-700 focus-within:border-our-700 focus-within:text-white sm:text-base md:text-lg">
+                Try Now
+              </a>
             </div>
             {/* Price 2 */}
             <div className="relative z-20 flex flex-col items-center max-w-md p-4 mx-auto my-0 bg-white border-4 border-solid rounded-lg border-our-300 sm:p-6 md:px-8 md:py-16">
@@ -150,9 +150,9 @@ export default function Pricing() {
                   </li>
                 ))}
               </ul>
-              <button className="inline-flex justify-center w-full px-4 py-3 mt-8 text-sm leading-none text-center text-white no-underline border rounded-md cursor-pointer bg-our-600 hover:bg-our-700 hover:border-our-700 hover:text-white focus-within:bg-our-700 focus-within:border-our-700 focus-within:text-white sm:text-base md:text-lg">
-                Select Plan
-              </button>
+              <a href="https://app.voicl.com/" className="inline-flex justify-center w-full px-4 py-3 mt-8 text-sm leading-none text-center text-white no-underline border rounded-md cursor-pointer bg-our-600 hover:bg-our-700 hover:border-our-700 hover:text-white focus-within:bg-our-700 focus-within:border-our-700 focus-within:text-white sm:text-base md:text-lg">
+               Try Now
+              </a>
             </div>
             {/* Price 3 */}
             <div className="relative z-10 flex flex-col items-center max-w-md p-4 mx-auto my-0 border border-solid rounded-lg lg:-ml-3 sm:my-0 sm:p-6 md:my-8 md:p-8">
@@ -194,9 +194,9 @@ export default function Pricing() {
                   </li>
                 ))}
               </ul>
-              <button className="inline-flex justify-center w-full px-4 py-3 mt-8 text-sm leading-none text-center no-underline bg-transparent border rounded-md cursor-pointer text-our-600 border-our-600 hover:bg-our-700 hover:border-our-700 hover:text-white focus-within:bg-our-700 focus-within:border-our-700 focus-within:text-white sm:text-base md:text-lg">
-                Select Plan
-              </button>
+              <a href="https://app.voicl.com/" className="inline-flex justify-center w-full px-4 py-3 mt-8 text-sm leading-none text-center no-underline bg-transparent border rounded-md cursor-pointer text-our-600 border-our-600 hover:bg-our-700 hover:border-our-700 hover:text-white focus-within:bg-our-700 focus-within:border-our-700 focus-within:text-white sm:text-base md:text-lg">
+                Try Now
+              </a>
             </div>
           </div>
         </div>
