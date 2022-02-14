@@ -38,12 +38,14 @@ const Hero: React.FunctionComponent<HeroProps> = ({}) => {
 
               <div className="flex justify-center w-full max-w-2xl gap-2 mx-auto mt-6">
                 <div className="mt-3 rounded-lg sm:mt-0">
+                <a href="https://www.producthunt.com/posts/voicl-2-0?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-voicl-2-0" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=331428&theme=light" alt="Voicl 2.0 - Easily add voice widgets to your website | Product Hunt" className="width: 150px; height: 54px; mb-5 justify-center content-center" width="150" height="54" /></a>
                   <a
                     className="items-center tracking-tighter block px-5 py-4 text-base font-normal text-center text-white transition duration-500 ease-in-out transform bg-gradient-to-r from-[#a994e8] to-[#886adb] hover:bg-[#F6F3FB] text-white  lg:px-10 rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
                     href="https://app.voicl.com/login"
                   >
                     Start now - it's free
                   </a>
+                  
                 </div>
               </div>
             </div>
