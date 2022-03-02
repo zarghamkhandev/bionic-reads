@@ -17,6 +17,7 @@ export default function Pricing() {
     "1 min recording length",
     "Simple analytics",
     "12 voicys/month",
+    "Voicl Listen included"
     ,
   ];
 
@@ -26,6 +27,7 @@ export default function Pricing() {
     "3 min recording length",
     "In depth analytics",
     "30 voicys/month",
+    "Voicl Listen included"
     ,
   ];
   return (
