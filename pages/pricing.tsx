@@ -11,6 +11,11 @@ export default function Pricing() {
     "Voicl Listen included",
   ];
 
+  const subscribe = () => {
+    Paddle.Checkout.open({ product: 29220 });
+    console.log("subscribe");
+  };
+
   return (
     <Layout>
       {/* Section 1 */}
@@ -57,12 +62,12 @@ export default function Pricing() {
                   </li>
                 ))}
               </ul>
-              <a
-                href="https://app.voicl.com/"
+              <button
+                onClick={subscribe}
                 className="inline-flex justify-center w-full px-4 py-3 mt-8 text-sm leading-none text-center text-white no-underline border rounded-md cursor-pointer bg-our-600 hover:bg-our-700 hover:border-our-700 hover:text-white focus-within:bg-our-700 focus-within:border-our-700 focus-within:text-white sm:text-base md:text-lg"
               >
                 Try Now
-              </a>
+              </button>
             </div>
           </div>
         </div>
