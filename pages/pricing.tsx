@@ -9,16 +9,20 @@ export default function Pricing() {
     yearly: { starter: 144, pro: 278 },
   };
 
-  const freeFeatures = ["Limited customization", "500 views (after that a watermark will be added)", "30sec recording length", "No analytics", "3 voicys/month"
-];
+  const freeFeatures = [
+    "Limited customization",
+    "500 views (after that a watermark will be added)",
+    "30sec recording length",
+    "No analytics",
+    "3 voicys/month",
+  ];
   const starterFeatures = [
     "Unlimited customization",
     "15.000 views/month",
     "1 min recording length",
     "Simple analytics",
     "12 voicys/month",
-    "Voicl Listen included"
-    ,
+    "Voicl Listen included",
   ];
 
   const proFeatures = [
@@ -27,8 +31,7 @@ export default function Pricing() {
     "3 min recording length",
     "In depth analytics",
     "30 voicys/month",
-    "Voicl Listen included"
-    ,
+    "Voicl Listen included",
   ];
   return (
     <Layout>
@@ -67,9 +70,9 @@ export default function Pricing() {
               Annually
             </button>
           </div>
-          <div className="grid grid-cols-1 gap-4 mt-4 leading-7 text-gray-900 border-0 border-gray-200 sm:mt-6 sm:gap-6 md:mt-8 md:gap-0 lg:grid-cols-3">
+          <div className="grid grid-cols-1 gap-4 mt-4 leading-7 text-gray-900 border-0 border-gray-200 sm:mt-6 sm:gap-6 md:mt-8 md:gap-0 ">
             {/* Price 1 */}
-            <div className="relative z-10 flex flex-col items-center max-w-md p-4 mx-auto my-0 border border-solid rounded-lg lg:-mr-3 sm:my-0 sm:p-6 md:my-8 md:p-8">
+            {/* <div className="relative z-10 flex flex-col items-center max-w-md p-4 mx-auto my-0 border border-solid rounded-lg lg:-mr-3 sm:my-0 sm:p-6 md:my-8 md:p-8">
               <h3 className="m-0 text-2xl font-semibold leading-tight tracking-tight text-black border-0 border-gray-200 sm:text-3xl md:text-4xl">
                 Free Forever
               </h3>
@@ -111,7 +114,7 @@ export default function Pricing() {
               <a href="https://app.voicl.com/" className="inline-flex justify-center w-full px-4 py-3 mt-8 text-sm leading-none text-center no-underline bg-transparent border rounded-md cursor-pointer text-our-600 border-our-600 hover:bg-our-700 hover:border-our-700 hover:text-white focus-within:bg-our-700 focus-within:border-our-700 focus-within:text-white sm:text-base md:text-lg">
                 Try Now
               </a>
-            </div>
+            </div> */}
             {/* Price 2 */}
             <div className="relative z-20 flex flex-col items-center max-w-md p-4 mx-auto my-0 bg-white border-4 border-solid rounded-lg border-our-300 sm:p-6 md:px-8 md:py-16">
               <h3 className="m-0 text-2xl font-semibold leading-tight tracking-tight text-black border-0 border-gray-200 sm:text-3xl md:text-4xl">
@@ -152,12 +155,15 @@ export default function Pricing() {
                   </li>
                 ))}
               </ul>
-              <a href="https://app.voicl.com/" className="inline-flex justify-center w-full px-4 py-3 mt-8 text-sm leading-none text-center text-white no-underline border rounded-md cursor-pointer bg-our-600 hover:bg-our-700 hover:border-our-700 hover:text-white focus-within:bg-our-700 focus-within:border-our-700 focus-within:text-white sm:text-base md:text-lg">
-               Try Now
+              <a
+                href="https://app.voicl.com/"
+                className="inline-flex justify-center w-full px-4 py-3 mt-8 text-sm leading-none text-center text-white no-underline border rounded-md cursor-pointer bg-our-600 hover:bg-our-700 hover:border-our-700 hover:text-white focus-within:bg-our-700 focus-within:border-our-700 focus-within:text-white sm:text-base md:text-lg"
+              >
+                Try Now
               </a>
             </div>
             {/* Price 3 */}
-            <div className="relative z-10 flex flex-col items-center max-w-md p-4 mx-auto my-0 border border-solid rounded-lg lg:-ml-3 sm:my-0 sm:p-6 md:my-8 md:p-8">
+            {/* <div className="relative z-10 flex flex-col items-center max-w-md p-4 mx-auto my-0 border border-solid rounded-lg lg:-ml-3 sm:my-0 sm:p-6 md:my-8 md:p-8">
               <h3 className="m-0 text-2xl font-semibold leading-tight tracking-tight text-black border-0 border-gray-200 sm:text-3xl md:text-4xl">
                 Plus
               </h3>
@@ -199,7 +205,7 @@ export default function Pricing() {
               <a href="https://app.voicl.com/" className="inline-flex justify-center w-full px-4 py-3 mt-8 text-sm leading-none text-center no-underline bg-transparent border rounded-md cursor-pointer text-our-600 border-our-600 hover:bg-our-700 hover:border-our-700 hover:text-white focus-within:bg-our-700 focus-within:border-our-700 focus-within:text-white sm:text-base md:text-lg">
                 Try Now
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
